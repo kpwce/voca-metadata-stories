@@ -1,0 +1,69 @@
+<!-- Example adapted from https://d3js.org/getting-started -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .notes-card {
+            border: solid;
+            border-color: black;
+            border-radius: 10%;
+            text-align: left;
+            padding: 20px;
+            width: 270px;
+            height: 180px;
+            margin: 20px;
+        }
+
+        .notes-card:hover {
+            background-color: lightblue;
+        }
+
+        .notes-card p {
+            font-size: 12pt;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="return-link" href="./index.html">Return to Home</a>
+
+    <h1>Notes</h1>
+
+    <p>This page contains details about the development process for this project.</p>
+    <div class="card-container">
+
+    <a href="./notes/adventures-in-web-scraping.html" target="_blank" rel="noopener noreferrer">
+        <div class="notes-card">
+            <h3>Adventures in Web Scraping</h3>
+            <h4>Author: Alysa Meng</h4>
+            <p>Details on how I engaged with metadata structure through attempts to download it programmatically.</p>
+        </div>
+    </a>
+
+    <a href="./notes/scrollytelling-with-scrollama.html" target="_blank" rel="noopener noreferrer">
+        <div class="notes-card">
+            <h3>Scrollytelling with Scrollama</h3>
+            <h4>Author: Alysa Meng</h4>
+            <p>Making data stories easier to understand by capitalizing on the scroll.</p>
+        </div>
+    </a>
+
+    </div>
+</body>
+
+</html>

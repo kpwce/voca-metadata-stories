@@ -2,55 +2,213 @@
 <!DOCTYPE html>
 <html>
 
-<head></head>
+<head>
+    <meta charset="UTF-8">
+    <title>Metadata as Storytelling in Voca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
     <h1>Metadata as Storytelling in Voca</h1>
 
-    <p>Created by Alysa and Maryelizabeth as a project for LIS 549 (Cultural Heritage Informatics)</p>
+    <p><a href="https://voca.arizona.edu/">Voca</a> is an audiovisual archive of poetry readings at the Poetry Center
+        Library at the University of Arizona.</p>
 
-    <h2>Example D3 chart that doesn't show anything meaningful</h2>
-    <div id="container"></div>
-    <script type="module">
+    <div id="readings-chart"></div> <!-- Thousands of readings plot across time! -->
 
-        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-        // Declare the chart dimensions and margins.
-        const width = 640;
-        const height = 400;
-        const marginTop = 20;
-        const marginRight = 20;
-        const marginBottom = 30;
-        const marginLeft = 40;
+    <p>Each reading is broken into tracks.</p>
+    <!-- Guide through one reading -->
+    <section id="scroll">
+        <div class="scroll__graphic">
+            <div class="chart">
+            </div>
+        </div>
 
-        // Declare the x (horizontal position) scale.
-        const x = d3.scaleUtc()
-            .domain([new Date("2023-01-01"), new Date("2024-01-01")])
-            .range([marginLeft, width - marginRight]);
+        <div class="scroll__text">
+            <div class="step" data-step="0">
+                <p>Consider this Spring 2025 reading from American
+                    poet and educator Terrance Hayes, which can be found <a
+                        href="https://voca.arizona.edu/reading/terrance-hayes-february-13-2025">here</a>.</p>
+            </div>
+            <div class="step" data-step="1">
+                <div>
+                    <p>Poetry readings are more than just poetry. They often begin with an introduction to the reading.
+                    </p>
+                </div>
+            </div>
+            <div class="step" data-step="2">
+                <p>Readers also can give commentary about their work to enrich how the audience experiences a poem.</p>
+            </div>
+            <div class="step" data-step="3">
+                <p>But at the heart of the reading are the poems.</p>
+            </div>
+            <div class="step" data-step="4">
+                <div>
+                    <p>Some were published long ago. Some were published recently. Some were unpublished at the time, or
+                        uncollected. To explore the uncollected, take a look at <a href="./uncollected.html"
+                            class="internal-link">Understanding the Uncollected</a>.</p>
+                </div>
 
-        // Declare the y (vertical position) scale.
-        const y = d3.scaleLinear()
-            .domain([0, 100])
-            .range([height - marginBottom, marginTop]);
+            </div>
+            <div class="step" data-step="5">
+                <div>
+                    <p>The poems and themes from one reading are put into conversation with other
+                        readings in Voca through subject tags. To explore tags in depth, take a look at <a
+                            href="./tags.html" class="internal-link">Tumultuous Tags</a>.</p>
+                </div>
+            </div>
+            <div class="step" data-step="6">
+                <p>Sometimes moderators or the live audience get to ask questions after a reading. But what about those
+                    watching online? See <a href="./metapoetry.html" class="internal-link">Making Metapoetry</a> for
+                    some ideas on how to actively participate in these poetic conversations.</p>
+            </div>
+        </div>
+    </section>
 
-        // Create the SVG container.
-        const svg = d3.create("svg")
-            .attr("width", width)
-            .attr("height", height);
+    <p>The composition of tracks varies between readings. Readings can contain translations, prose, and lectures, too.
+        Some tracks resist classification by blending these categorical boundaries.</p>
 
-        // Add the x-axis.
-        svg.append("g")
-            .attr("transform", `translate(0,${height - marginBottom})`)
-            .call(d3.axisBottom(x));
+    <div id="classification-chart">
+        Insert static diagram or art?
+    </div>
 
-        // Add the y-axis.
-        svg.append("g")
-            .attr("transform", `translate(${marginLeft},0)`)
-            .call(d3.axisLeft(y));
+    <p>Each reading takes the audience on a different multisensory journey. The metadata can give us a gateway to
+        understanding the richness of the collection.</p>
 
-        // Append the SVG element.
-        container.append(svg.node());
+    <div id="tracks-chart">
+        Insert tracks chart in HTML5 Canvas
+    </div>
+
+    <footer>This project was developed by Alysa Meng and Maryelizabeth Koepele for the Fall 2026 offering of LIS 549
+        (Cultural Heritage Informatics). See project code on <a
+            href="https://github.com/kpwce/voca-metadata-stories">Github</a>. Here are <a class="internal-link"
+            href="notes.html">additional notes</a> on how we created this site.</footer>
+
+
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+
+    <script>
+        // Select elements using D3
+        var $container = d3.select("#scroll");
+        var $graphic = $container.select(".scroll__graphic");
+        var $chart = $graphic.select(".chart");
+        var $text = $container.select(".scroll__text");
+        var $step = $text.selectAll(".step");
+
+        // Define global holders for D3 access later
+        var scroller = scrollama();
+        var svg, rectangles, rectangleLabels;
+
+        function handleResize() {
+            var stepH = Math.floor(window.innerHeight * 0.75);
+            $step.style("height", stepH + "px");
+
+            var figureHeight = window.innerHeight / 2;
+            $chart.style("height", figureHeight + "px");
+
+            $graphic.style("height", window.innerHeight + "px");
+
+            if (svg) {
+                svg.attr("width", parseFloat($chart.style("width")))
+                    .attr("height", figureHeight);
+            }
+
+            scroller.resize();
+        }
+
+        function handleStepEnter(response) {
+            $step.classed("is-active", function (d, i) {
+                return i === response.index;
+            });
+
+            const colorMap = {
+                "Introduction": "red",
+                "Commentary": "green",
+                "Poem": "blue",
+                "Q&A": "orange"
+            }
+
+            const enabledType = new Set();
+
+            if (response.index >= 1) {
+                enabledType.add("Introduction");
+            }
+            if (response.index >= 2) {
+                enabledType.add("Commentary");
+            }
+            if (response.index >= 3) {
+                enabledType.add("Poem");
+            }
+            if (response.index >= 6) {
+                enabledType.add("Q&A");
+            }
+            rectangles.transition().duration(300).attr("fill", d => enabledType.has(d.Type) ? colorMap[d.Type] : "gray");
+
+            // At Step 4, show published status; at Step 5, show tags.
+            if (response.index === 4) {
+                rectangleLabels.transition().duration(300)
+                    .text(d => d.Published);
+            } else if (response.index === 5) {
+                rectangleLabels.transition().duration(300).text(d => d.Tags);
+            } else {
+                rectangleLabels.transition().duration(300).text(d => d.Track);
+            }
+
+            console.log(response.index);
+        }
+
+
+        async function init() {
+            svg = $chart.append("svg");
+
+            d3.csv("visualization_data/terrance_hayes.csv").then(data => {
+                const squareSize = 20;
+                const gap = 3;
+
+                console.log(data);
+                rectangles = svg.selectAll("rect")
+                    .data(data)
+                    .join("rect")
+                    .attr("width", squareSize)
+                    .attr("height", squareSize)
+                    .attr("x", 10)
+                    .attr("y", (d, i) => i * (squareSize + gap))
+                    .attr("fill", "gray")
+                    .attr("rx", 6);
+
+                rectangleLabels = svg.selectAll("text.label")
+                    .data(data)
+                    .join("text")
+                    .attr("class", "label")
+                    .attr("x", 20 + squareSize + 8)
+                    .attr("y", (d, i) => i * (squareSize + gap) + (squareSize / 2))
+                    .attr("text-anchor", "start")
+                    .attr("dominant-baseline", "central")
+                    .attr("fill", "#333")
+                    .style("font-family", "sans-serif")
+                    .style("font-size", "12px")
+                    .text(d => d.Track);
+
+                scroller
+                    .setup({
+                        step: "#scroll .scroll__text .step",
+                        offset: 0.2,
+                        debug: false
+                    })
+                    .onStepEnter(handleStepEnter);
+
+                handleResize();
+            });
+
+            window.addEventListener("resize", handleResize);
+        }
+
+
+        init();
+
 
     </script>
 </body>

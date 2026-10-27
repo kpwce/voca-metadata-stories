@@ -6,6 +6,50 @@
     <meta charset="UTF-8">
     <title>Metadata as Storytelling in Voca</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .wordcloud-container {
+            max-width: 70%;
+            margin: 0 auto;
+        }
+        #word-cloud {
+            width: 100%;
+        }
+
+        .word {
+            cursor: pointer;
+        }
+
+        #search {
+            width: 50%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        .scrollable-table {
+            max-height: 400px;
+            overflow-y: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Fix table headers to the top while scrolling */
+        .scrollable-table th {
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        th,
+        td {
+            padding: 3px;
+            border-bottom: 1px solid black;
+            background-color: white;
+            text-align: left;
+            overflow-wrap: break-word;
+            width: 25%;
+        }
+    </style>
 </head>
 
 <body>
@@ -70,16 +114,37 @@
     <p>The composition of tracks varies between readings. Readings can contain translations, prose, and lectures, too.
         Some tracks resist classification by blending these categorical boundaries.</p>
 
-    <div id="classification-chart">
-        Insert static diagram or art?
+    <div class="wordcloud-container">
+        <div class="cloud">
+            <svg id="word-cloud"></svg>
+        </div>
+
+        <div class="list">
+            <h2 id="heading"></h2>
+
+            <input id="search" placeholder="Search" oninput="searchGrid()">
+
+            <div class="scrollable-table">
+                <table id="grid">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Link</th>
+                            <th>More Classes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="3">Select a word.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 
-    <p>Each reading takes the audience on a different multisensory journey. The metadata can give us a gateway to
+    <p>Each reading takes the audience on a different journey. The metadata is a gateway to
         understanding the richness of the collection.</p>
-
-    <div id="tracks-chart">
-        Insert tracks chart in HTML5 Canvas
-    </div>
 
     <footer>This project was developed by Alysa Meng and Maryelizabeth Koepele for the Fall 2026 offering of LIS 549
         (Cultural Heritage Informatics). See project code on <a
@@ -89,16 +154,15 @@
 
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1/build/d3.layout.cloud.js"></script>
     <script>
-        // Select elements using D3
+        // Scrollytelling
         var $container = d3.select("#scroll");
         var $graphic = $container.select(".scroll__graphic");
         var $chart = $graphic.select(".chart");
         var $text = $container.select(".scroll__text");
         var $step = $text.selectAll(".step");
 
-        // Define global holders for D3 access later
         var scroller = scrollama();
         var svg, rectangles, rectangleLabels;
 
@@ -157,7 +221,6 @@
                 rectangleLabels.transition().duration(300).text(d => d.Track);
             }
 
-            console.log(response.index);
         }
 
 
@@ -168,7 +231,7 @@
                 const squareSize = 20;
                 const gap = 3;
 
-                console.log(data);
+
                 rectangles = svg.selectAll("rect")
                     .data(data)
                     .join("rect")
@@ -207,9 +270,138 @@
         }
 
 
+        // WORD CLOUD
+        let words = [];
+
+        const colors = [
+            "#202124", "#3D405B", "#E07A5F",
+            "#457B6D", "#6D597A", "#D4A373"
+        ];
+
+        const wordcloudsvg = d3.select("#word-cloud");
+        const tbody = document.querySelector("#grid tbody");
+
+
+        // Load words for wordcloud!
+        fetch("./wordcloud_data.json")
+            .then(response => {
+                if (!response.ok) throw new Error("JSON file not loading!");
+                return response.json();
+            })
+            .then(data => {
+
+                const max = Math.max(
+                    1, ...Object.values(data).map(tracks => tracks.length)
+                );
+
+                words = Object.entries(data).map(([text, tracks]) => ({
+                    text,
+                    tracks,
+                    size: d3.scaleSqrt().domain([1, max]).range([20, 100])(
+                        Math.max(1, tracks.length)
+                    )
+                }));
+
+                drawCloud();
+            })
+            .catch(error => {
+                console.error("Some error occured in wordcloud!" + error);
+            });
+
+        // Draw the word cloud.
+function drawCloud() {
+  const width = document.querySelector(".cloud").clientWidth - 30;
+  const height = 400;
+  wordcloudsvg.attr("viewBox", `0 0 ${width} ${height}`);
+  wordcloudsvg.selectAll("*").remove();
+
+  d3.layout.cloud()
+    .size([width, height])
+    .words(words.map(word => ({
+      text: word.text,
+      size: word.size,
+      tracks: word.tracks // Explicitly preserve custom properties
+    })))
+    .padding(3)
+    .rotate(() => 0)
+    .font("Georgia")
+    .fontSize(word => word.size)
+    .on("end", data => {
+      wordcloudsvg.append("g")
+        .attr("transform", `translate(${width / 2}, ${height / 2})`)
+        .selectAll("text")
+        .data(data)
+        .join("text")
+        .attr("class", "word")
+        .attr("text-anchor", "middle")
+        .style("font-size", word => `${word.size}px`)
+        .style("fill", (word, i) => colors[i % colors.length])
+        .attr("transform", word => `translate(${word.x}, ${word.y}) rotate(${word.rotate})`)
+        .text(word => word.text)
+        .on("click", (event, d) => {
+          // Robust check for D3 v5 vs v6/v7 event signatures
+          const wordData = (d && d.tracks) ? d : event;
+          showResults(wordData);
+        });
+    })
+    .start();
+}
+
+        // Show links for the word in wordcloud
+        function showResults(word) {
+            document.getElementById("heading").textContent =
+                `"${word.text}" occurrences (${word.tracks.length})`;
+
+            document.getElementById("search").value = "";
+            tbody.replaceChildren();
+
+            word.tracks.forEach(track => {
+                const row = tbody.insertRow();
+                const readingCell = row.insertCell();
+                const trackCell = row.insertCell();
+                const classCell = row.insertCell();
+
+
+                if ("other_classification" in track) {
+                    classCell.textContent = track.other_classification;
+                }
+
+                // Link the reading
+                const readingLink = document.createElement("a");
+                readingLink.href = "https://voca.arizona.edu/" + track.reading_link;
+                // launch in new tab
+                readingLink.target = "_blank";
+                readingLink.rel = "noopener noreferrer";
+                readingLink.textContent = track.reading_title;
+                readingCell.appendChild(readingLink);
+
+                // Link the track
+                const trackLink = document.createElement("a");
+                trackLink.href = "https://voca.arizona.edu" + track.track_link;
+                // launch in new tab
+                trackLink.target = "_blank";
+                trackLink.rel = "noopener noreferrer";
+                trackLink.textContent = track.track_name;
+                trackCell.appendChild(trackLink);
+            });
+
+            searchGrid();
+        }
+
+        function searchGrid() {
+            const search = document.getElementById("search")
+                .value.toLowerCase();
+
+            tbody.querySelectorAll("tr").forEach(row => {
+                row.style.display = row.textContent.toLowerCase().includes(search)
+                    ? ""
+                    : "none";
+            });
+        }
+
+        window.addEventListener("resize", drawCloud);
+
         init();
-
-
     </script>
 </body>
 

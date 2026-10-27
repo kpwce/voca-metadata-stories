@@ -109,7 +109,8 @@
             max-height: 400px;
             overflow-y: auto;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
+            -webkit-overflow-scrolling: touch;
         }
 
         .scrollable-table th {
@@ -124,7 +125,6 @@
             background-color: white;
             text-align: left;
             overflow-wrap: break-word;
-            width: 25%;
         }
 
         @media (min-width: 1400px) {
@@ -244,9 +244,9 @@
                 <table id="grid">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Link</th>
-                            <th>More Classes</th>
+                            <th>Reading</th>
+                            <th>Track</th>
+                            <th>More Categories</th>
                         </tr>
                     </thead>
                     <tbody>

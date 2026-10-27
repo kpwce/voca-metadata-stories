@@ -1,26 +1,105 @@
-<!-- Example adapted from https://d3js.org/getting-started -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metadata as Storytelling in Voca</title>
-    <link rel="stylesheet" href="style.css">
+    
     <style>
-        .wordcloud-container {
-            max-width: 70%;
-            margin: 0 auto;
+        /* Base typography and spacing */
+        body {
+            background-color: white;
+            color: #202124;
+            font-family: Baskerville, Georgia, Times, 'Times New Roman', serif;
+            margin: 5% 5% 0 5%;
+            text-align: center;
         }
-        #word-cloud {
+
+        h1 {
+            font-size: 2.5rem;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+
+        a { color: #3D405B; }
+        footer { padding: 20px 0; }
+        .internal-link { background-color: rgba(224, 122, 95, 0.2); text-decoration: none; padding: 0 4px; border-radius: 2px;}
+
+        #scroll {
+            position: relative;
+            display: block; 
+            width: 100%;
+            padding: 0;
+            margin-top: 2rem;
+        }
+
+        .scroll__graphic {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh; 
+            z-index: 0;
+        }
+
+        .chart {
+            position: absolute;
+            top: 10%; /* Anchors the visual to the top of the screen */
             width: 100%;
         }
 
-        .word {
-            cursor: pointer;
+        .scroll__text {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto; 
+            padding: 50vh 1rem 0 1rem; /* Gives the chart a moment to pin before text scrolls up */
+            z-index: 1; 
         }
 
+        .step {
+            margin: 0 auto 70vh auto; 
+            padding: 1.5rem;
+            background-color: rgba(255, 255, 255, 0.98); 
+            border: 2px solid #202124;
+            border-radius: 8px;
+            opacity: 0; 
+            transition: opacity 150ms ease-in-out;
+            pointer-events: none; 
+        }
+
+        .step.is-active {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        /* Shrinks the gap after the final step so the wordcloud appears immediately */
+        .step:last-child {
+            margin-bottom: 10vh; 
+        }
+
+        .step p {
+            font-size: 1.25rem;
+            margin: 0;
+        }
+
+        /* Word Cloud and Table */
+        .wordcloud-container {
+            max-width: 100%;
+            margin: 2rem auto;
+        }
+        
+        #word-cloud { width: 100%; }
+        .word { cursor: pointer; }
+        
         #search {
-            width: 50%;
+            width: 100%;
+            max-width: 300px;
             padding: 8px;
             box-sizing: border-box;
             margin-bottom: 10px;
@@ -33,21 +112,68 @@
             justify-content: center;
         }
 
-        /* Fix table headers to the top while scrolling */
         .scrollable-table th {
             position: sticky;
             top: 0;
             z-index: 1;
         }
 
-        th,
-        td {
-            padding: 3px;
+        th, td {
+            padding: 5px;
             border-bottom: 1px solid black;
             background-color: white;
             text-align: left;
             overflow-wrap: break-word;
             width: 25%;
+        }
+
+        @media (min-width: 1400px) {
+            body { margin: 10% 10% 0 10%; }
+            h1 { font-size: 4rem; }
+            p { font-size: 1.75rem; }
+
+            #scroll {
+                display: flex; 
+                justify-content: space-between;
+                margin-top: 0;
+            }
+
+            .scroll__graphic {
+                width: 50%;
+            }
+
+            .chart {
+                top: 50%; /* Restores perfect vertical centering for desktop */
+                transform: translateY(-50%);
+            }
+
+            .scroll__text {
+                width: 45%;
+                max-width: none;
+                margin: 0; 
+                padding: 0; /* Resets mobile padding for desktop */
+            }
+
+            .step {
+                margin: 50vh auto; 
+                padding: 0;
+                background-color: transparent; 
+                border: none;
+                opacity: 0.15;
+                transition: opacity 300ms ease;
+            }
+
+            /* Resets the last-child margin on desktop so it matches the other steps */
+            .step:last-child {
+                margin-bottom: 50vh;
+            }
+
+            .step.is-active {
+                opacity: 1;
+            }
+
+            .step p { font-size: 2rem; }
+            .wordcloud-container { max-width: 70%; }
         }
     </style>
 </head>
@@ -59,15 +185,13 @@
     <p><a href="https://voca.arizona.edu/">Voca</a> is an audiovisual archive of poetry readings at the Poetry Center
         Library at the University of Arizona.</p>
 
-    <div id="readings-chart"></div> <!-- Thousands of readings plot across time! -->
-
+    <div id="readings-chart"></div>
 
     <p>Each reading is broken into tracks.</p>
-    <!-- Guide through one reading -->
+    
     <section id="scroll">
         <div class="scroll__graphic">
-            <div class="chart">
-            </div>
+            <div class="chart"></div>
         </div>
 
         <div class="scroll__text">
@@ -77,10 +201,7 @@
                         href="https://voca.arizona.edu/reading/terrance-hayes-february-13-2025">here</a>.</p>
             </div>
             <div class="step" data-step="1">
-                <div>
-                    <p>Poetry readings are more than just poetry. They often begin with an introduction to the reading.
-                    </p>
-                </div>
+                <p>Poetry readings are more than just poetry. They often begin with an introduction to the reading.</p>
             </div>
             <div class="step" data-step="2">
                 <p>Readers also can give commentary about their work to enrich how the audience experiences a poem.</p>
@@ -89,19 +210,14 @@
                 <p>But at the heart of the reading are the poems.</p>
             </div>
             <div class="step" data-step="4">
-                <div>
-                    <p>Some were published long ago. Some were published recently. Some were unpublished at the time, or
-                        uncollected. To explore the uncollected, take a look at <a href="./uncollected.html"
-                            class="internal-link">Understanding the Uncollected</a>.</p>
-                </div>
-
+                <p>Some were published long ago. Some were published recently. Some were unpublished at the time, or
+                    uncollected. To explore the uncollected, take a look at <a href="./uncollected.html"
+                        class="internal-link">Understanding the Uncollected</a>.</p>
             </div>
             <div class="step" data-step="5">
-                <div>
-                    <p>The poems and themes from one reading are put into conversation with other
-                        readings in Voca through subject tags. To explore tags in depth, take a look at <a
-                            href="./tags.html" class="internal-link">Tumultuous Tags</a>.</p>
-                </div>
+                <p>The poems and themes from one reading are put into conversation with other
+                    readings in Voca through subject tags. To explore tags in depth, take a look at <a
+                        href="./tags.html" class="internal-link">Tumultuous Tags</a>.</p>
             </div>
             <div class="step" data-step="6">
                 <p>Sometimes moderators or the live audience get to ask questions after a reading. But what about those
@@ -116,13 +232,13 @@
 
     <div class="wordcloud-container">
         <div class="cloud">
-            <svg id="word-cloud"></svg>
+            <svg id="word-cloud" role="img" aria-label="An interactive word cloud of track classifications"></svg>
         </div>
 
         <div class="list">
             <h2 id="heading"></h2>
 
-            <input id="search" placeholder="Search" oninput="searchGrid()">
+            <input id="search" placeholder="Search" aria-label="Search words" oninput="searchGrid()">
 
             <div class="scrollable-table">
                 <table id="grid">
@@ -151,12 +267,10 @@
             href="https://github.com/kpwce/voca-metadata-stories">Github</a>. Here are <a class="internal-link"
             href="notes.html">additional notes</a> on how we created this site.</footer>
 
-
     <script src="https://unpkg.com/scrollama"></script>
     <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1/build/d3.layout.cloud.js"></script>
     <script>
-        // Scrollytelling
         var $container = d3.select("#scroll");
         var $graphic = $container.select(".scroll__graphic");
         var $chart = $graphic.select(".chart");
@@ -167,17 +281,15 @@
         var svg, rectangles, rectangleLabels;
 
         function handleResize() {
-            var stepH = Math.floor(window.innerHeight * 0.75);
-            $step.style("height", stepH + "px");
-
             var figureHeight = window.innerHeight / 2;
             $chart.style("height", figureHeight + "px");
-
             $graphic.style("height", window.innerHeight + "px");
 
             if (svg) {
-                svg.attr("width", parseFloat($chart.style("width")))
-                    .attr("height", figureHeight);
+                var chartWidth = $chart.node().clientWidth;
+                svg.attr("width", chartWidth)
+                   .attr("height", figureHeight)
+                   .style("overflow", "visible");
             }
 
             scroller.resize();
@@ -189,48 +301,35 @@
             });
 
             const colorMap = {
-                "Introduction": "red",
-                "Commentary": "green",
-                "Poem": "blue",
-                "Q&A": "orange"
+                "Introduction": "#E07A5F", 
+                "Commentary": "#457B6D",   
+                "Poem": "#3D405B",         
+                "Q&A": "#D4A373"           
             }
 
             const enabledType = new Set();
+            if (response.index >= 1) enabledType.add("Introduction");
+            if (response.index >= 2) enabledType.add("Commentary");
+            if (response.index >= 3) enabledType.add("Poem");
+            if (response.index >= 6) enabledType.add("Q&A");
+            
+            rectangles.transition().duration(300).attr("fill", d => enabledType.has(d.Type) ? colorMap[d.Type] : "#d3d3d3");
 
-            if (response.index >= 1) {
-                enabledType.add("Introduction");
-            }
-            if (response.index >= 2) {
-                enabledType.add("Commentary");
-            }
-            if (response.index >= 3) {
-                enabledType.add("Poem");
-            }
-            if (response.index >= 6) {
-                enabledType.add("Q&A");
-            }
-            rectangles.transition().duration(300).attr("fill", d => enabledType.has(d.Type) ? colorMap[d.Type] : "gray");
-
-            // At Step 4, show published status; at Step 5, show tags.
             if (response.index === 4) {
-                rectangleLabels.transition().duration(300)
-                    .text(d => d.Published);
+                rectangleLabels.transition().duration(300).text(d => d.Published);
             } else if (response.index === 5) {
                 rectangleLabels.transition().duration(300).text(d => d.Tags);
             } else {
                 rectangleLabels.transition().duration(300).text(d => d.Track);
             }
-
         }
-
 
         async function init() {
             svg = $chart.append("svg");
 
             d3.csv("visualization_data/terrance_hayes.csv").then(data => {
-                const squareSize = 20;
-                const gap = 3;
-
+                const squareSize = 24;
+                const gap = 6;
 
                 rectangles = svg.selectAll("rect")
                     .data(data)
@@ -239,26 +338,26 @@
                     .attr("height", squareSize)
                     .attr("x", 10)
                     .attr("y", (d, i) => i * (squareSize + gap))
-                    .attr("fill", "gray")
-                    .attr("rx", 6);
+                    .attr("fill", "#d3d3d3")
+                    .attr("rx", 4);
 
                 rectangleLabels = svg.selectAll("text.label")
                     .data(data)
                     .join("text")
                     .attr("class", "label")
-                    .attr("x", 20 + squareSize + 8)
+                    .attr("x", 10 + squareSize + 12)
                     .attr("y", (d, i) => i * (squareSize + gap) + (squareSize / 2))
                     .attr("text-anchor", "start")
                     .attr("dominant-baseline", "central")
-                    .attr("fill", "#333")
-                    .style("font-family", "sans-serif")
-                    .style("font-size", "12px")
+                    .attr("fill", "#202124") 
+                    .style("font-family", "Baskerville, Georgia, Times, 'Times New Roman', serif") 
+                    .style("font-size", "18px") 
                     .text(d => d.Track);
 
                 scroller
                     .setup({
                         step: "#scroll .scroll__text .step",
-                        offset: 0.2,
+                        offset: 0.7, 
                         debug: false
                     })
                     .onStepEnter(handleStepEnter);
@@ -269,89 +368,60 @@
             window.addEventListener("resize", handleResize);
         }
 
-
         // WORD CLOUD
         let words = [];
-
-        const colors = [
-            "#202124", "#3D405B", "#E07A5F",
-            "#457B6D", "#6D597A", "#D4A373"
-        ];
-
+        const colors = ["#202124", "#3D405B", "#E07A5F", "#457B6D", "#6D597A", "#D4A373"];
         const wordcloudsvg = d3.select("#word-cloud");
         const tbody = document.querySelector("#grid tbody");
 
-
-        // Load words for wordcloud!
         fetch("./wordcloud_data.json")
             .then(response => {
                 if (!response.ok) throw new Error("JSON file not loading!");
                 return response.json();
             })
             .then(data => {
-
-                const max = Math.max(
-                    1, ...Object.values(data).map(tracks => tracks.length)
-                );
-
+                const max = Math.max(1, ...Object.values(data).map(tracks => tracks.length));
                 words = Object.entries(data).map(([text, tracks]) => ({
                     text,
                     tracks,
-                    size: d3.scaleSqrt().domain([1, max]).range([20, 100])(
-                        Math.max(1, tracks.length)
-                    )
+                    size: d3.scaleSqrt().domain([1, max]).range([20, 100])(Math.max(1, tracks.length))
                 }));
-
                 drawCloud();
             })
-            .catch(error => {
-                console.error("Some error occured in wordcloud!" + error);
-            });
+            .catch(error => console.error("Wordcloud error: " + error));
 
-        // Draw the word cloud.
-function drawCloud() {
-  const width = document.querySelector(".cloud").clientWidth - 30;
-  const height = 400;
-  wordcloudsvg.attr("viewBox", `0 0 ${width} ${height}`);
-  wordcloudsvg.selectAll("*").remove();
+        function drawCloud() {
+            const width = document.querySelector(".cloud").clientWidth - 30;
+            const height = 400;
+            wordcloudsvg.attr("viewBox", `0 0 ${width} ${height}`);
+            wordcloudsvg.selectAll("*").remove();
 
-  d3.layout.cloud()
-    .size([width, height])
-    .words(words.map(word => ({
-      text: word.text,
-      size: word.size,
-      tracks: word.tracks // Explicitly preserve custom properties
-    })))
-    .padding(3)
-    .rotate(() => 0)
-    .font("Georgia")
-    .fontSize(word => word.size)
-    .on("end", data => {
-      wordcloudsvg.append("g")
-        .attr("transform", `translate(${width / 2}, ${height / 2})`)
-        .selectAll("text")
-        .data(data)
-        .join("text")
-        .attr("class", "word")
-        .attr("text-anchor", "middle")
-        .style("font-size", word => `${word.size}px`)
-        .style("fill", (word, i) => colors[i % colors.length])
-        .attr("transform", word => `translate(${word.x}, ${word.y}) rotate(${word.rotate})`)
-        .text(word => word.text)
-        .on("click", (event, d) => {
-          // Robust check for D3 v5 vs v6/v7 event signatures
-          const wordData = (d && d.tracks) ? d : event;
-          showResults(wordData);
-        });
-    })
-    .start();
-}
+            d3.layout.cloud()
+                .size([width, height])
+                .words(words.map(word => ({ text: word.text, size: word.size, tracks: word.tracks })))
+                .padding(3)
+                .rotate(() => 0)
+                .font("Georgia")
+                .fontSize(word => word.size)
+                .on("end", data => {
+                    wordcloudsvg.append("g")
+                        .attr("transform", `translate(${width / 2}, ${height / 2})`)
+                        .selectAll("text")
+                        .data(data)
+                        .join("text")
+                        .attr("class", "word")
+                        .attr("text-anchor", "middle")
+                        .style("font-size", word => `${word.size}px`)
+                        .style("fill", (word, i) => colors[i % colors.length])
+                        .attr("transform", word => `translate(${word.x}, ${word.y}) rotate(${word.rotate})`)
+                        .text(word => word.text)
+                        .on("click", (event, d) => showResults((d && d.tracks) ? d : event));
+                })
+                .start();
+        }
 
-        // Show links for the word in wordcloud
         function showResults(word) {
-            document.getElementById("heading").textContent =
-                `"${word.text}" occurrences (${word.tracks.length})`;
-
+            document.getElementById("heading").textContent = `"${word.text}" occurrences (${word.tracks.length})`;
             document.getElementById("search").value = "";
             tbody.replaceChildren();
 
@@ -361,48 +431,34 @@ function drawCloud() {
                 const trackCell = row.insertCell();
                 const classCell = row.insertCell();
 
+                if ("other_classification" in track) classCell.textContent = track.other_classification;
 
-                if ("other_classification" in track) {
-                    classCell.textContent = track.other_classification;
-                }
-
-                // Link the reading
                 const readingLink = document.createElement("a");
                 readingLink.href = "https://voca.arizona.edu/" + track.reading_link;
-                // launch in new tab
                 readingLink.target = "_blank";
                 readingLink.rel = "noopener noreferrer";
                 readingLink.textContent = track.reading_title;
                 readingCell.appendChild(readingLink);
 
-                // Link the track
                 const trackLink = document.createElement("a");
                 trackLink.href = "https://voca.arizona.edu" + track.track_link;
-                // launch in new tab
                 trackLink.target = "_blank";
                 trackLink.rel = "noopener noreferrer";
                 trackLink.textContent = track.track_name;
                 trackCell.appendChild(trackLink);
             });
-
             searchGrid();
         }
 
         function searchGrid() {
-            const search = document.getElementById("search")
-                .value.toLowerCase();
-
+            const search = document.getElementById("search").value.toLowerCase();
             tbody.querySelectorAll("tr").forEach(row => {
-                row.style.display = row.textContent.toLowerCase().includes(search)
-                    ? ""
-                    : "none";
+                row.style.display = row.textContent.toLowerCase().includes(search) ? "" : "none";
             });
         }
 
         window.addEventListener("resize", drawCloud);
-
         init();
     </script>
 </body>
-
 </html>

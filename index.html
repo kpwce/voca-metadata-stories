@@ -49,7 +49,7 @@
 
         .chart {
             position: absolute;
-            top: 10%; /* Anchors the visual to the top of the screen */
+            top: 10%;
             width: 100%;
         }
 
@@ -58,7 +58,7 @@
             width: 100%;
             max-width: 500px;
             margin: 0 auto; 
-            padding: 50vh 1rem 0 1rem; /* Gives the chart a moment to pin before text scrolls up */
+            padding: 50vh 1rem 0 1rem;
             z-index: 1; 
         }
 
@@ -148,10 +148,10 @@
             }
 
             .scroll__text {
-                width: 45%;
+                width: 40%;
                 max-width: none;
                 margin: 0; 
-                padding: 0; /* Resets mobile padding for desktop */
+                padding: 0;
             }
 
             .step {
@@ -172,7 +172,7 @@
                 opacity: 1;
             }
 
-            .step p { font-size: 2rem; }
+            .step p { font-size: 1.75rem; }
             .wordcloud-container { max-width: 70%; }
         }
     </style>
@@ -238,7 +238,7 @@
         <div class="list">
             <h2 id="heading"></h2>
 
-            <input id="search" placeholder="Search" aria-label="Search words" oninput="searchGrid()">
+            <input id="search" placeholder="Search table for reading, track, or category" aria-label="Search words" oninput="searchGrid()">
 
             <div class="scrollable-table">
                 <table id="grid">
@@ -289,7 +289,7 @@
                 var chartWidth = $chart.node().clientWidth;
                 svg.attr("width", chartWidth)
                    .attr("height", figureHeight)
-                   .style("overflow", "visible");
+                   .style("overflow", "visible"); // likely will overflow for mobile :(
             }
 
             scroller.resize();
@@ -351,7 +351,7 @@
                     .attr("dominant-baseline", "central")
                     .attr("fill", "#202124") 
                     .style("font-family", "Baskerville, Georgia, Times, 'Times New Roman', serif") 
-                    .style("font-size", "18px") 
+                    .style("font-size", "14px") 
                     .text(d => d.Track);
 
                 scroller

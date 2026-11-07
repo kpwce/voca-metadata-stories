@@ -14,15 +14,15 @@ Standardized digital tagging systems offer many benefits to digital archives. Th
 
 ## Parts of Speech
 
-We used an automated process (explain process) to organize the tags by parts of speech. Discuss which parts of speech were most prevalent, what is interesting about the results.
+We used an automated process *(explain process)* to organize the tags by parts of speech. *Discuss which parts of speech were most prevalent, what is interesting about the results.*
 
 Locations
-Many of the poems in the archive reference specific locations which were important to the taggers to note. Discuss which locations were most/least prevalent, what is interesting about the results. Discuss how location-descriptive words that aren’t included in the locations list relate to the locations.
+Many of the poems in the archive reference specific locations which were important to the taggers to note. *Discuss which locations were most/least prevalent, what is interesting about the results. Discuss how location-descriptive words that aren’t included in the locations list relate to the locations.*
 
 ## Proper Nouns
 
-The metadata contains a range of specific references, from mythologies to popular culture to literary and historical figures. Discuss if any one reference or type of reference shows up most often. Should we organize by year? Maybe a chart?
+The metadata contains a range of specific references, from mythologies to popular culture to literary and historical figures. *Discuss if any one reference or type of reference shows up most often. Should we organize by year? Maybe a chart?*
 
 ## Conclusion
 
-Discuss findings of visualizations, re-engage with the importance of the data.
+*Discuss findings of visualizations, re-engage with the importance of the data.*

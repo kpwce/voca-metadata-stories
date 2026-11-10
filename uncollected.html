@@ -1,19 +1,114 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <title>Understanding the Uncollected</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+          .rd-dashboard { font-family: system-ui, sans-serif; color: #222; max-width: 100%; }
+  .rd-filters { display: flex; gap: 1rem; margin-bottom: 1rem; align-items: center; }
+  .rd-filters label { cursor: pointer; display: flex; align-items: center; gap: 0.3rem; }
+  .rd-table-container { max-height: 400px; overflow-y: auto; margin-top: 1rem; border: 1px solid #ccc; }
+  .rd-table { width: 100%; border-collapse: collapse; text-align: left; }
+  .rd-table th, .rd-table td { padding: 8px 12px; border-bottom: 1px solid #eee; }
+  .rd-table th { background: #f5f5f5; position: sticky; top: 0; z-index: 1; }
+  .rd-table tr:hover { background: #f0f7ff; }
+
+  /* Sparkling Animation for Essay Badge */
+  @keyframes sparkle {
+    0% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 2px #a855f7); }
+    50% { transform: scale(1.2); opacity: 1; filter: drop-shadow(0 0 6px #c084fc); }
+    100% { transform: scale(1); opacity: 0.8; filter: drop-shadow(0 0 2px #a855f7); }
+  }
+
+  .sparkle-icon {
+    display: inline-block;
+    color: #7c3aed;
+    font-size: 0.9rem;
+    margin-left: 6px;
+    animation: sparkle 2s infinite ease-in-out;
+  }
+
+  .btn-sparkle-essay {
+    background: linear-gradient(135deg, #7c3aed 0%, #6366f1 100%);
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 2px 4px rgba(124, 58, 237, 0.2);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .btn-sparkle-essay:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(124, 58, 237, 0.35);
+  }
+
+  .essay-box {
+    background: #f5f3ff;
+    border-left: 4px solid #7c3aed;
+    padding: 0.85rem 1rem;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    border-radius: 0 6px 6px 0;
+  }
+
+  dialog { width: min(650px, 90vw); border: 1px solid #ccc; border-radius: 8px; padding: 1rem; }
+  dialog::backdrop { background: rgba(0,0,0,0.4); }
+  .dlg-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
+  .dlg-close { background: none; border: 1px solid #ccc; border-radius: 4px; padding: 4px 8px; cursor: pointer; }
+    </style>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
-
 <body>
-
     <a class="return-link" href="./index.html">Return to Home</a>
-
     <h1>Understanding the Uncollected</h1>
     <p>Written by Alysa Meng and Maryelizabeth Koepele</p>
 
-</body>
 
+  <!-- The HTML structure moved directly out of the JavaScript template string -->
+  <div class="rd-dashboard">
+    <h2>This chart shows readings containing at least one uncollected work.</h2>
+
+    <!-- 1. Vega-Lite Target Container -->
+    <div class="chart" id="chart-container"></div>
+
+    <!-- Data Table Output UI -->
+    <h3 id="reading-header">Select a reading from above or click below:</h3>
+    <div class="rd-table-container">
+      <table class="rd-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Reading Title</th>
+            <th>Tracks</th>
+            <th>Essay</th>
+          </tr>
+        </thead>
+        <tbody><!-- Data rows will get injected here via JS later --></tbody>
+      </table>
+    </div>
+
+    <!-- Modal Dialog UI -->
+    <dialog id="track-dialog">
+      <div class="dlg-header">
+        <h3 id="dlg-title" style="margin:0;"></h3>
+        <button class="dlg-close">✕</button>
+      </div>
+      <div id="dlg-body" style="margin-top:1rem;"></div>
+    </dialog>
+  </div>
+
+  <script type="module" src="./uncollected_chart.js"></script>
+
+</body>
 </html>

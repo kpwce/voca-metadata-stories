@@ -2,17 +2,105 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Tumultuous Tags</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .page-heading {
+            height: 100dvh;
+            width: 100%;
+        }
+        .essay-heading {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100dvh;
+            background: black;
+            z-index: -1000;
+            pointer-events: none;
+        }
+    </style>
 </head>
 
 <body>
 
     <a class="return-link" href="./index.html">Return to Home</a>
+    <div class="page-heading">
+        <div class="essay-heading">
+        <h1>Tumultuous Tags</h1>
+        <h2>Written by Alysa Meng and Maryelizabeth Koepele</h2>
+        <p>The background is comprised of reading tags, brightness scaled linearly based on frequency.</p>
 
-    <h1>Tumultuous Tags</h1>
-    <p>Written by Alysa Meng and Maryelizabeth Koepele</p>
+        <p><it>Scroll down for more!</it></p>
+        </div>
+
+    </div>
+
+
+   
+
+    <canvas id="animated-tags"></canvas>
+
+    <script>
+        const canvas = document.getElementById('animated-tags');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        async function init() {
+            try {
+                const response = await fetch('./visualization_data/reading_tag_counts.json');
+                const countsDict = await response.json();
+                // scale brightness based on most frequent
+                const freqs = Object.values(countsDict);
+                const maxFreq = Math.max(...freqs);
+
+                // map every word -> frequency pair directly into the words array
+                const words = Object.entries(countsDict).map(([text, freq], i) => {
+                    const brightness = 0.2 + (freq / maxFreq) * 0.8;
+                    return {
+                        text,
+                        brightness,
+                        x: Math.random() *  canvas.width,
+                        y: Math.random() * canvas.height,
+                        speed: 0.1 + Math.random()
+                    };
+                });
+                // animate!
+                function loop() {
+                    ctx.clearRect(0, 0, canvas.width, canvas.height);
+                    ctx.font = "18px serif";
+                    for (const w of words) {
+                        w.x -= w.speed;
+                        const textWidth = ctx.measureText(w.text).width;
+
+                        if (w.x < -textWidth) {
+                            w.x = canvas.width;
+                        }
+                        // white coloring, custom brightness based on freq
+                        ctx.fillStyle = `rgba(255, 255, 255, ${w.brightness})`;
+                        ctx.fillText(w.text, w.x, w.y);
+                    }
+
+                    requestAnimationFrame(loop);
+                }
+
+                loop();
+            } catch (error) {
+                console.error("Tags didn't load: ", error);
+            }
+        }
+
+        init();
+    </script>
+
 
 </body>
 

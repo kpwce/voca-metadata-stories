@@ -12,8 +12,12 @@ h1 {
 
 }
 
-p {
+h2 {
     font-size: 36px;
+}
+
+p {
+    font-size: 18px;
     font-style: normal;
     font-weight: normal;
 }
@@ -43,7 +47,9 @@ footer {
     border: solid;
     border-color: black;
     text-decoration: none;
+    background-color: white;
 }
+
 .return-link:hover {
     background-color: lightgray;
 }
@@ -84,4 +90,8 @@ footer {
 
 .step.is-active {
     opacity: 1;
+}
+
+it {
+    font-style: italic;
 }

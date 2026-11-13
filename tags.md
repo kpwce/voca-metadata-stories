@@ -12,7 +12,7 @@ This lack of standardization is an issue that is frequently present in digital c
 
 Standardized digital tagging systems offer many benefits to digital archives. They create data that is more user-friendly, more search-engine friendly, and likely in smaller amounts. The purpose of this essay is not to argue for the creation and use of purposefully messy data. Instead, we are curious to discover the narratives contained in this kind of jointly created metadata.
 
-## Parts of Speech
+## Parts of Speech --> move to metapoetry
 
 We used an automated process *(explain process)* to organize the tags by parts of speech. *Discuss which parts of speech were most prevalent, what is interesting about the results.*
 

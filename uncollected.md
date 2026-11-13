@@ -14,6 +14,8 @@ These uncollected poems make Voca as a resource even more unique. Although poetr
 - Can we compare uncollected tags to data in tumultuous tags? locations etc.
     - To do: run by Alysa
 
+- Talk about specific examples based on parsing
+
 
 
 Interesting example of a writer tracing publication history of a single uncollected poem. Probably not relevant, but noting for drafting purposes!

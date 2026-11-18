@@ -2459,6 +2459,15 @@
             "other_classification": ""
         }
     ],
+    "collaborative poem": [
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"i am not a paid protestor\"",
+            "track_link": "/track/id/69697",
+            "other_classification": ""
+        }
+    ],
     "colloquium": [
         {
             "reading_title": "John Ashbery Colloquium - September 12, 1990",
@@ -2943,7 +2952,7 @@
             "reading_link": "/reading/david-rivard-january-17-2012",
             "track_name": "On the New York School, risk, and the self; excerpt from Mad Men",
             "track_link": "/track/id/65386",
-            "other_classification": "tv script"
+            "other_classification": "video"
         },
         {
             "reading_title": "Lecture by Cecilia Vicu\u00f1a - May 19, 2012",
@@ -9446,13 +9455,6 @@
         {
             "reading_title": "Mark Strand - May 4, 1971",
             "reading_link": "/reading/mark-strand-may-4-1971",
-            "track_name": "\"I am Raising a Fly,\" \"A War Song,\" and \"Butterfly Messenger\"",
-            "track_link": "/track/id/62539",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Mark Strand - May 4, 1971",
-            "reading_link": "/reading/mark-strand-may-4-1971",
             "track_name": "\"The Whole Story\"",
             "track_link": "/track/id/62540",
             "other_classification": ""
@@ -9561,6 +9563,13 @@
             "track_name": "\"Elegy for My Father\"",
             "track_link": "/track/id/62555",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Mark Strand - May 4, 1971",
+            "reading_link": "/reading/mark-strand-may-4-1971",
+            "track_name": "\"I am Raising a Fly,\" \"A War Song,\" and \"Butterfly Messenger\"",
+            "track_link": "/track/id/62539",
+            "other_classification": "translation"
         },
         {
             "reading_title": "Diane Wakoski - October 6, 1971",
@@ -33087,7 +33096,7 @@
             "reading_link": "/reading/diana-garcia-february-27-2002",
             "track_name": "Opening Remarks and \"Cotton Rows, Cotton Blankets\"",
             "track_link": "/track/id/58461",
-            "other_classification": "full reading"
+            "other_classification": "introduction"
         },
         {
             "reading_title": "Diana Garc\u00eda - February 27, 2002",
@@ -49122,13 +49131,6 @@
         {
             "reading_title": "Fady Joudah - February 19, 2015",
             "reading_link": "/reading/fady-joudah-february-19-2015",
-            "track_name": "\"I Dreamed You\"",
-            "track_link": "/track/id/59683",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Fady Joudah - February 19, 2015",
-            "reading_link": "/reading/fady-joudah-february-19-2015",
             "track_name": "\"Dear Sister\"",
             "track_link": "/track/id/59684",
             "other_classification": ""
@@ -49139,6 +49141,13 @@
             "track_name": "\"First\"",
             "track_link": "/track/id/59685",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Fady Joudah - February 19, 2015",
+            "reading_link": "/reading/fady-joudah-february-19-2015",
+            "track_name": "\"I Dreamed You\"",
+            "track_link": "/track/id/59683",
+            "other_classification": "translation"
         },
         {
             "reading_title": "Simon J. Ortiz - February 26, 2015",
@@ -53532,13 +53541,6 @@
         {
             "reading_title": "Sawako Nakayasu - March 22, 2018",
             "reading_link": "/reading/sawako-nakayasu-march-22-2018",
-            "track_name": "\"From Crow's-eye View: Poem Number One\"",
-            "track_link": "/track/id/60657",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sawako Nakayasu - March 22, 2018",
-            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
             "track_name": "\"Bright Sun in the Head of the Girls\"",
             "track_link": "/track/id/60658",
             "other_classification": ""
@@ -53616,29 +53618,8 @@
         {
             "reading_title": "Sawako Nakayasu - March 22, 2018",
             "reading_link": "/reading/sawako-nakayasu-march-22-2018",
-            "track_name": "\"Abnormal Reversible Reaction\"",
-            "track_link": "/track/id/60669",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sawako Nakayasu - March 22, 2018",
-            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
-            "track_name": "\"Abnormal Reversible Reaction\" (continued)",
-            "track_link": "/track/id/60670",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sawako Nakayasu - March 22, 2018",
-            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
             "track_name": "\"Fragment Scenery\"",
             "track_link": "/track/id/60671",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sawako Nakayasu - March 22, 2018",
-            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
-            "track_name": "\"Bright Sun in the Head of the Girls\" (translation no. 1)",
-            "track_link": "/track/id/60672",
             "other_classification": ""
         },
         {
@@ -53675,6 +53656,34 @@
             "track_name": "\"In a Plastic Bag of Jell-O with Nine Other Girls\"",
             "track_link": "/track/id/60677",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"From Crow's-eye View: Poem Number One\"",
+            "track_link": "/track/id/60657",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Abnormal Reversible Reaction\"",
+            "track_link": "/track/id/60669",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Abnormal Reversible Reaction\" (continued)",
+            "track_link": "/track/id/60670",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Bright Sun in the Head of the Girls\" (translation no. 1)",
+            "track_link": "/track/id/60672",
+            "other_classification": "translation"
         },
         {
             "reading_title": "Ada Lim\u00f3n - April 5, 2018",
@@ -57494,36 +57503,8 @@
         {
             "reading_title": "Sesshu Foster - April 14, 2022",
             "reading_link": "/reading/sesshu-foster-april-14-2022",
-            "track_name": "\"Game 112\"",
-            "track_link": "/track/id/69509",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sesshu Foster - April 14, 2022",
-            "reading_link": "/reading/sesshu-foster-april-14-2022",
-            "track_name": "\"Game 111\"",
-            "track_link": "/track/id/69508",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sesshu Foster - April 14, 2022",
-            "reading_link": "/reading/sesshu-foster-april-14-2022",
-            "track_name": "\"Game 84\"",
-            "track_link": "/track/id/69511",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sesshu Foster - April 14, 2022",
-            "reading_link": "/reading/sesshu-foster-april-14-2022",
             "track_name": "\"City Terrace Postcard\"",
             "track_link": "/track/id/69510",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sesshu Foster - April 14, 2022",
-            "reading_link": "/reading/sesshu-foster-april-14-2022",
-            "track_name": "\"Another Portrait of Dad\"",
-            "track_link": "/track/id/69513",
             "other_classification": ""
         },
         {
@@ -57571,13 +57552,6 @@
         {
             "reading_title": "Anthony Cody - August 11, 2022",
             "reading_link": "/reading/anthony-cody-august-11-2022",
-            "track_name": "\"Earth Song\"",
-            "track_link": "/track/id/69617",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Anthony Cody - August 11, 2022",
-            "reading_link": "/reading/anthony-cody-august-11-2022",
             "track_name": "\"Borderland Apocrypha\"",
             "track_link": "/track/id/69619",
             "other_classification": ""
@@ -57616,6 +57590,13 @@
             "track_name": "\"Allied with the Bees\"",
             "track_link": "/track/id/69687",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Anthony Cody - August 11, 2022",
+            "reading_link": "/reading/anthony-cody-august-11-2022",
+            "track_name": "\"Earth Song\"",
+            "track_link": "/track/id/69617",
+            "other_classification": "translation"
         },
         {
             "reading_title": "Lorna Dee Cervantes - September 15, 2022",
@@ -58124,13 +58105,6 @@
         {
             "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
-            "track_name": "\"To Hear Is To Strike Gold: A Response to Pascua Lama\"",
-            "track_link": "/track/id/69753",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
-            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "\"The Tree\"",
             "track_link": "/track/id/69754",
             "other_classification": ""
@@ -58140,125 +58114,6 @@
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "\"Would You\"",
             "track_link": "/track/id/69756",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"The Singing Man\"",
-            "track_link": "/track/id/69721",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Love That's Real\"",
-            "track_link": "/track/id/69722",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Seven Leaf Clover\"",
-            "track_link": "/track/id/69723",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Big as the Sky\"",
-            "track_link": "/track/id/69724",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Because the World Needs You\"",
-            "track_link": "/track/id/69725",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Coming Into My Own\"",
-            "track_link": "/track/id/69727",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Being on My Trampoline\"",
-            "track_link": "/track/id/69726",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Truth Seeker\"",
-            "track_link": "/track/id/69728",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Little Things\"",
-            "track_link": "/track/id/69729",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Rocket Saturn Five\"",
-            "track_link": "/track/id/69730",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Absolutely Most\"",
-            "track_link": "/track/id/69731",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Silently Loud - January 29, 2023",
-            "reading_link": "/reading/silently-loud-january-29-2023",
-            "track_name": "\"Perfect Imperfection\"",
-            "track_link": "/track/id/69732",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
-            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
-            "track_name": "\"El Kaos Debajo De Los Botones / Acr\u00edlica en Az\u00fal\" / \"The Chaos Beneath the Buttons / Acrylic in Blue\"",
-            "track_link": "/track/id/69701",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
-            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
-            "track_name": "\"Quentino\" / \"Quentino\"",
-            "track_link": "/track/id/69694",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
-            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
-            "track_name": "\"Ella Quiere el Anillo como Aqu\u00e9l Quiere el Traje de la Cicatriz/Pero\" / \"She Wants The Ring Like That Guy Wants The Scar Suit/But\"",
-            "track_link": "/track/id/69695",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
-            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
-            "track_name": "\"Radio Couples\" / \"Radio Couples\"",
-            "track_link": "/track/id/69696",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
-            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
-            "track_name": "\"i am not a paid protestor\"",
-            "track_link": "/track/id/69697",
             "other_classification": ""
         },
         {
@@ -58283,25 +58138,39 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"El Kaos Debajo De Los Botones / Acr\u00edlica en Az\u00fal\" / \"The Chaos Beneath the Buttons / Acrylic in Blue\"",
+            "track_link": "/track/id/69701",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Quentino\" / \"Quentino\"",
+            "track_link": "/track/id/69694",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Ella Quiere el Anillo como Aqu\u00e9l Quiere el Traje de la Cicatriz/Pero\" / \"She Wants The Ring Like That Guy Wants The Scar Suit/But\"",
+            "track_link": "/track/id/69695",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Radio Couples\" / \"Radio Couples\"",
+            "track_link": "/track/id/69696",
+            "other_classification": "translation"
+        },
+        {
             "reading_title": "Jane Hirshfield - April 13, 2023",
             "reading_link": "/reading/jane-hirshfield-april-13-2023",
             "track_name": "Opening Remarks and \"The Poet\"",
             "track_link": "/track/id/69814",
             "other_classification": "introduction"
-        },
-        {
-            "reading_title": "Jane Hirshfield - April 13, 2023",
-            "reading_link": "/reading/jane-hirshfield-april-13-2023",
-            "track_name": "Selected tankas by Ono no Komachi",
-            "track_link": "/track/id/69815",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Jane Hirshfield - April 13, 2023",
-            "reading_link": "/reading/jane-hirshfield-april-13-2023",
-            "track_name": "Selected tankas by Izumi Shikibu",
-            "track_link": "/track/id/69816",
-            "other_classification": ""
         },
         {
             "reading_title": "Jane Hirshfield - April 13, 2023",
@@ -58472,6 +58341,20 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Jane Hirshfield - April 13, 2023",
+            "reading_link": "/reading/jane-hirshfield-april-13-2023",
+            "track_name": "Selected tankas by Ono no Komachi",
+            "track_link": "/track/id/69815",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Jane Hirshfield - April 13, 2023",
+            "reading_link": "/reading/jane-hirshfield-april-13-2023",
+            "track_name": "Selected tankas by Izumi Shikibu",
+            "track_link": "/track/id/69816",
+            "other_classification": "translation"
+        },
+        {
             "reading_title": "Michael Wasson - April 27, 2023",
             "reading_link": "/reading/michael-wasson-april-27-2023",
             "track_name": "\"Aposiopesis [or, The Field between the Living & the Dead]\"",
@@ -58546,14 +58429,14 @@
             "reading_link": "/reading/jennifer-elise-foerster-april-27-2023",
             "track_name": "\"Nakonakv vcakayis\u2026\"",
             "track_link": "/track/id/69857",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Jennifer Elise Foerster - April 27, 2023",
             "reading_link": "/reading/jennifer-elise-foerster-april-27-2023",
             "track_name": "\"Hvcce uefihn\u0113\u2026\"",
             "track_link": "/track/id/69856",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Angel Dominguez - August 3, 2023",
@@ -58595,20 +58478,6 @@
             "reading_link": "/reading/angel-dominguez-august-3-2023",
             "track_name": "\"Diego, I only dream\u2026\"",
             "track_link": "/track/id/69869",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Angel Dominguez - August 3, 2023",
-            "reading_link": "/reading/angel-dominguez-august-3-2023",
-            "track_name": "\"Dear Diego, We finally have it out\u2026\"",
-            "track_link": "/track/id/69871",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Angel Dominguez - August 3, 2023",
-            "reading_link": "/reading/angel-dominguez-august-3-2023",
-            "track_name": "\"Dear Diego, In my dreams we finally\u2026\"",
-            "track_link": "/track/id/69872",
             "other_classification": ""
         },
         {
@@ -58682,6 +58551,20 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Angel Dominguez - August 3, 2023",
+            "reading_link": "/reading/angel-dominguez-august-3-2023",
+            "track_name": "\"Dear Diego, We finally have it out\u2026\"",
+            "track_link": "/track/id/69871",
+            "other_classification": "letter"
+        },
+        {
+            "reading_title": "Angel Dominguez - August 3, 2023",
+            "reading_link": "/reading/angel-dominguez-august-3-2023",
+            "track_name": "\"Dear Diego, In my dreams we finally\u2026\"",
+            "track_link": "/track/id/69872",
+            "other_classification": "letter"
+        },
+        {
             "reading_title": "Paisley Rekdal - September 21, 2023",
             "reading_link": "/reading/paisley-rekdal-september-21-2023",
             "track_name": "Audience Poem Selection and \"Not\"",
@@ -58735,7 +58618,7 @@
             "reading_link": "/reading/paisley-rekdal-september-21-2023",
             "track_name": "\"Translation\"",
             "track_link": "/track/id/69919",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Yanyi - September 28, 2023",
@@ -58756,132 +58639,6 @@
             "reading_link": "/reading/yanyi-september-28-2023",
             "track_name": "\"Dream Diary\"",
             "track_link": "/track/id/69958",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"I'm working on being alone today\u2026\"",
-            "track_link": "/track/id/69926",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Doreen and LiZhen are generous\u2026\"",
-            "track_link": "/track/id/69927",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"What I also mean to say is\u2026\"",
-            "track_link": "/track/id/69929",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Here's what it's like if it's hard\u2026\"",
-            "track_link": "/track/id/69931",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"There are places I can't go\u2026\"",
-            "track_link": "/track/id/69930",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"For a long time, I was attached\u2026\"",
-            "track_link": "/track/id/69932",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"It was graduation\u2026\"",
-            "track_link": "/track/id/69934",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"She had hit me many other times\u2026\"",
-            "track_link": "/track/id/69933",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"She tells me that she feels guilty\u2026\"",
-            "track_link": "/track/id/69935",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Form gives space for something to exist\u2026\"",
-            "track_link": "/track/id/69936",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Originally, this was a book about\u2026\"",
-            "track_link": "/track/id/69937",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"My mother tells me something\u2026\"",
-            "track_link": "/track/id/69939",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"You tell me that the old you\u2026\"",
-            "track_link": "/track/id/69938",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Even though I didn't know M very well\u2026\"",
-            "track_link": "/track/id/69941",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Imagine every day you wake up to\u2026\"",
-            "track_link": "/track/id/69940",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"I have been writing to women\u2026\"",
-            "track_link": "/track/id/69942",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Last night, I had a dream about\u2026\"",
-            "track_link": "/track/id/69943",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Yanyi - September 28, 2023",
-            "reading_link": "/reading/yanyi-september-28-2023",
-            "track_name": "\"Of all the things I have done\u2026\"",
-            "track_link": "/track/id/69944",
             "other_classification": ""
         },
         {
@@ -59412,13 +59169,6 @@
         {
             "reading_title": "Marilyn Chin - November 16, 2023",
             "reading_link": "/reading/marilyn-chin-november-16-2023",
-            "track_name": "\"You Go, Me Stay, Two Autumns\"",
-            "track_link": "/track/id/70044",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Marilyn Chin - November 16, 2023",
-            "reading_link": "/reading/marilyn-chin-november-16-2023",
             "track_name": "\"If (Not by Rudyard Kipling)\"",
             "track_link": "/track/id/70043",
             "other_classification": ""
@@ -59522,6 +59272,13 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Marilyn Chin - November 16, 2023",
+            "reading_link": "/reading/marilyn-chin-november-16-2023",
+            "track_name": "\"You Go, Me Stay, Two Autumns\"",
+            "track_link": "/track/id/70044",
+            "other_classification": "audience participation"
+        },
+        {
             "reading_title": "Charif Shanahan - December 5, 2023",
             "reading_link": "/reading/charif-shanahan-december-5-2023",
             "track_name": "\"'Mulatto' :: 'Quadroon'\"",
@@ -59615,34 +59372,6 @@
         {
             "reading_title": "Julie Swarstad Johnson - January 11, 2024",
             "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
-            "track_name": "\"Night Letters (October 2020)\"",
-            "track_link": "/track/id/70082",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
-            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
-            "track_name": "\"Night Letters (November 2020)\"",
-            "track_link": "/track/id/70083",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
-            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
-            "track_name": "\"Night Letters (December 2020)\"",
-            "track_link": "/track/id/70084",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
-            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
-            "track_name": "\"Night Letters (January 2021)\"",
-            "track_link": "/track/id/70085",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
-            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
             "track_name": "\"Night Letters (May 2021)\"",
             "track_link": "/track/id/70086",
             "other_classification": ""
@@ -59681,6 +59410,34 @@
             "track_name": "\"What You'd Want to Remember\"",
             "track_link": "/track/id/70098",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (October 2020)\"",
+            "track_link": "/track/id/70082",
+            "other_classification": "letter"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (November 2020)\"",
+            "track_link": "/track/id/70083",
+            "other_classification": "letter"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (December 2020)\"",
+            "track_link": "/track/id/70084",
+            "other_classification": "letter"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (January 2021)\"",
+            "track_link": "/track/id/70085",
+            "other_classification": "letter"
         },
         {
             "reading_title": "Edgar Kunz - January 18, 2024",
@@ -59883,49 +59640,49 @@
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"In Warsaw\"",
             "track_link": "/track/id/70147",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"Two Men in Rome\"",
             "track_link": "/track/id/70150",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"Song on Porcelain\"",
             "track_link": "/track/id/70151",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"The Song of a Bird on the Banks of the Potomac\"",
             "track_link": "/track/id/70152",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"A Little Negro Girl Playing Chopin\"",
             "track_link": "/track/id/70153",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "Excerpts from \"Treatise on Morals\"",
             "track_link": "/track/id/70156",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "\"Mittelbergheim\"",
             "track_link": "/track/id/70155",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Sheila Maldonado - February 22, 2024",
@@ -59933,13 +59690,6 @@
             "track_name": "Remarks on her bloodletters project and \"Fruit Survivor\"",
             "track_link": "/track/id/70238",
             "other_classification": "commentary"
-        },
-        {
-            "reading_title": "Edgar Garcia - February 22, 2024",
-            "reading_link": "/reading/edgar-garcia-february-22-2024",
-            "track_name": "\"Cantar es cantares...\"",
-            "track_link": "/track/id/70161",
-            "other_classification": ""
         },
         {
             "reading_title": "Edgar Garcia - February 22, 2024",
@@ -60009,13 +59759,6 @@
             "reading_link": "/reading/edgar-garcia-february-22-2024",
             "track_name": "\"XXXIII\"",
             "track_link": "/track/id/70171",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Edgar Garcia - February 22, 2024",
-            "reading_link": "/reading/edgar-garcia-february-22-2024",
-            "track_name": "\"Cantar es, es cantar...\"",
-            "track_link": "/track/id/70173",
             "other_classification": ""
         },
         {
@@ -60091,13 +59834,6 @@
         {
             "reading_title": "Sheila Maldonado - February 22, 2024",
             "reading_link": "/reading/sheila-maldonado-february-22-2024",
-            "track_name": "\"I write a book my mother doesn't read...\"",
-            "track_link": "/track/id/70237",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Sheila Maldonado - February 22, 2024",
-            "reading_link": "/reading/sheila-maldonado-february-22-2024",
             "track_name": "\"Holy Heat (Semana Santa Spa)\"",
             "track_link": "/track/id/70239",
             "other_classification": ""
@@ -60124,11 +59860,25 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Matthew Zapruder - February 29, 2024",
-            "reading_link": "/reading/matthew-zapruder-february-29-2024",
-            "track_name": "\"I Woke Up in California (First Draft)\"",
-            "track_link": "/track/id/70247",
-            "other_classification": ""
+            "reading_title": "Edgar Garcia - February 22, 2024",
+            "reading_link": "/reading/edgar-garcia-february-22-2024",
+            "track_name": "\"Cantar es cantares...\"",
+            "track_link": "/track/id/70161",
+            "other_classification": "chant"
+        },
+        {
+            "reading_title": "Edgar Garcia - February 22, 2024",
+            "reading_link": "/reading/edgar-garcia-february-22-2024",
+            "track_name": "\"Cantar es, es cantar...\"",
+            "track_link": "/track/id/70173",
+            "other_classification": "chant"
+        },
+        {
+            "reading_title": "Sheila Maldonado - February 22, 2024",
+            "reading_link": "/reading/sheila-maldonado-february-22-2024",
+            "track_name": "\"I write a book my mother doesn't read...\"",
+            "track_link": "/track/id/70237",
+            "other_classification": "performance"
         },
         {
             "reading_title": "Matthew Zapruder - February 29, 2024",
@@ -60226,7 +59976,7 @@
             "reading_link": "/reading/matthew-zapruder-february-29-2024",
             "track_name": "\"Poem For Rupi Kaur\"",
             "track_link": "/track/id/70259",
-            "other_classification": ""
+            "other_classification": "memoir"
         },
         {
             "reading_title": "John Murillo - March 14, 2024",
@@ -60469,22 +60219,8 @@
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
-            "track_name": "\"Ra ruzul\u00fa guidxilay\u00fa\" / \"Origen\" / \"Origin\"",
-            "track_link": "/track/id/70325",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
-            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Ca binniz\u00e1\" / \"Los zapotecas\" / \"The Zapotec\"",
             "track_link": "/track/id/70326",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
-            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
-            "track_name": "\"Olga\"",
-            "track_link": "/track/id/70328",
             "other_classification": ""
         },
         {
@@ -60497,79 +60233,93 @@
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Ra ruzul\u00fa guidxilay\u00fa\" / \"Origen\" / \"Origin\"",
+            "track_link": "/track/id/70325",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Olga\"",
+            "track_link": "/track/id/70328",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Gucaladxa' niza neu' naa\u2026\" / \"Dese\u00e9 caminaras conmigo\u2026\" / \"I wish you could walk with me\u2026\"",
             "track_link": "/track/id/70331",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Ni Nabani ma' guti\" / \"Naturaleza muerta\" / \"Still Life\"",
             "track_link": "/track/id/70330",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Diidxa' ne guenda\" / \"Tradici\u00f3n\" / \"Tradition\"",
             "track_link": "/track/id/70333",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Xquenda\" / \"Nahual\" / \"Familiar\"",
             "track_link": "/track/id/70332",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Bidaani'\" / \"Huipil\" / \"Huipil\"",
             "track_link": "/track/id/70334",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Lidxie be'\u00f1e'\" / \"Lagartera\" / \"Alligator Home\"",
             "track_link": "/track/id/70335",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Dxiibi\" / \"P\u00e1nico\" / \"Panic\"",
             "track_link": "/track/id/70336",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Binni lidxe'\" / \"La familia\" / \"Family\"",
             "track_link": "/track/id/70337",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Ni guicaa T.S. Eliot\" / \"Para T.S. Eliot\" / \"For T.S. Eliot\"",
             "track_link": "/track/id/70339",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Bilaa lu xtaalu'\u2026\" / \"Arroja granos de ma\u00edz\u2026\" / \"Hurl grains of purple corn\u2026\"",
             "track_link": "/track/id/70338",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
             "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
             "track_name": "\"Runebia'ya' diidxa'\u2026\" / \"Conozco de conjuros\u2026\" / \"I can say incantations\u2026\"",
             "track_link": "/track/id/70340",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Gabriel Dozal - May 2, 2024",
@@ -60723,13 +60473,6 @@
             "reading_link": "/reading/dana-levin-august-8-2024",
             "track_name": "\"Maybe\"",
             "track_link": "/track/id/70391",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Dana Levin - August 8, 2024",
-            "reading_link": "/reading/dana-levin-august-8-2024",
-            "track_name": "\"House of Feels\"",
-            "track_link": "/track/id/70392",
             "other_classification": ""
         },
         {
@@ -60973,13 +60716,6 @@
         {
             "reading_title": "Mary Ruefle - September 26, 2024",
             "reading_link": "/reading/mary-ruefle-september-26-2024",
-            "track_name": "\"The Effusive\"",
-            "track_link": "/track/id/70450",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Mary Ruefle - September 26, 2024",
-            "reading_link": "/reading/mary-ruefle-september-26-2024",
             "track_name": "\"The Loss\"",
             "track_link": "/track/id/70451",
             "other_classification": ""
@@ -61094,13 +60830,6 @@
             "reading_link": "/reading/brandon-som-october-17-2024",
             "track_name": "\"For My Friend Who Complains He Can't Dance and Has a Severe Case of Writer's Block\"",
             "track_link": "/track/id/70475",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Brandon Som - October 17, 2024",
-            "reading_link": "/reading/brandon-som-october-17-2024",
-            "track_name": "\"Tel\u00e9fono Roto\"",
-            "track_link": "/track/id/70477",
             "other_classification": ""
         },
         {
@@ -61869,13 +61598,6 @@
         {
             "reading_title": "Niki Herd - February 20, 2025",
             "reading_link": "/reading/niki-herd-february-20-2025",
-            "track_name": "\"The morning of...\" (January 20, 2025)",
-            "track_link": "/track/id/70635",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Niki Herd - February 20, 2025",
-            "reading_link": "/reading/niki-herd-february-20-2025",
             "track_name": "\"every summer, as a child, i burned ants\u2026\"",
             "track_link": "/track/id/70636",
             "other_classification": ""
@@ -62263,28 +61985,21 @@
             "reading_link": "/reading/natasha-wimmer-may-1-2025",
             "track_name": "\"Portrait of a Disciple\"",
             "track_link": "/track/id/70723",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natasha Wimmer - May 1, 2025",
             "reading_link": "/reading/natasha-wimmer-may-1-2025",
             "track_name": "\"As a Poet I Respect Him Greatly, Dear Madam, But\u2026\"",
             "track_link": "/track/id/70724",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natasha Wimmer - May 1, 2025",
             "reading_link": "/reading/natasha-wimmer-may-1-2025",
             "track_name": "\"Ars Poetica, 1970\"",
             "track_link": "/track/id/70726",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Natasha Wimmer - May 1, 2025",
-            "reading_link": "/reading/natasha-wimmer-may-1-2025",
-            "track_name": "\"Oppression in Milk: Anticlimax\"",
-            "track_link": "/track/id/70727",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Jennifer Chang - September 4, 2025",
@@ -62485,62 +62200,6 @@
         {
             "reading_title": "Richard Siken - October 9, 2025",
             "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Sidewalk\"",
-            "track_link": "/track/id/70803",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Metonymy\"",
-            "track_link": "/track/id/70805",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Bed\"",
-            "track_link": "/track/id/70806",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Landmark\"",
-            "track_link": "/track/id/70807",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Yardstick\"",
-            "track_link": "/track/id/70808",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"Several Tremendous\"",
-            "track_link": "/track/id/70809",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"The List\"",
-            "track_link": "/track/id/70811",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
-            "track_name": "\"The Waves\"",
-            "track_link": "/track/id/70810",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Richard Siken - October 9, 2025",
-            "reading_link": "/reading/richard-siken-october-9-2025",
             "track_name": "\"The Subjunctive\"",
             "track_link": "/track/id/70812",
             "other_classification": ""
@@ -62555,22 +62214,8 @@
         {
             "reading_title": "Tracy K. Smith - October 23, 2025",
             "reading_link": "/reading/tracy-k-smith-october-23-2025",
-            "track_name": "\"Fear Less: A Poem Is a Tool for Careful Listening\"",
-            "track_link": "/track/id/70818",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Tracy K. Smith - October 23, 2025",
-            "reading_link": "/reading/tracy-k-smith-october-23-2025",
             "track_name": "\"The children of trees...\"",
             "track_link": "/track/id/70819",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Tracy K. Smith - October 23, 2025",
-            "reading_link": "/reading/tracy-k-smith-october-23-2025",
-            "track_name": "\"Falling Awake: Poetry and the Work of the Unconscious\"",
-            "track_link": "/track/id/70821",
             "other_classification": ""
         },
         {
@@ -62590,22 +62235,8 @@
         {
             "reading_title": "Tracy K. Smith - October 23, 2025",
             "reading_link": "/reading/tracy-k-smith-october-23-2025",
-            "track_name": "\"Who Are You?: On Strangers and Others\"",
-            "track_link": "/track/id/70823",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Tracy K. Smith - October 23, 2025",
-            "reading_link": "/reading/tracy-k-smith-october-23-2025",
             "track_name": "\"Declaration\"",
             "track_link": "/track/id/70824",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Tracy K. Smith - October 23, 2025",
-            "reading_link": "/reading/tracy-k-smith-october-23-2025",
-            "track_name": "\"Who Are You?: On Strangers and Others\" (continued)",
-            "track_link": "/track/id/70825",
             "other_classification": ""
         },
         {
@@ -62751,20 +62382,6 @@
         {
             "reading_title": "Matthew Olzmann - November 20, 2025",
             "reading_link": "/reading/matthew-olzmann-november-20-2025",
-            "track_name": "\"Letter to Bruce Wayne\"",
-            "track_link": "/track/id/70868",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Matthew Olzmann - November 20, 2025",
-            "reading_link": "/reading/matthew-olzmann-november-20-2025",
-            "track_name": "\"Letter Written While Waiting in Line at Comic Con\"",
-            "track_link": "/track/id/70869",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Matthew Olzmann - November 20, 2025",
-            "reading_link": "/reading/matthew-olzmann-november-20-2025",
             "track_name": "\"Hurricane\"",
             "track_link": "/track/id/70870",
             "other_classification": ""
@@ -62866,6 +62483,20 @@
             "track_name": "\"A Small Poem\"",
             "track_link": "/track/id/70885",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Matthew Olzmann - November 20, 2025",
+            "reading_link": "/reading/matthew-olzmann-november-20-2025",
+            "track_name": "\"Letter to Bruce Wayne\"",
+            "track_link": "/track/id/70868",
+            "other_classification": "letter"
+        },
+        {
+            "reading_title": "Matthew Olzmann - November 20, 2025",
+            "reading_link": "/reading/matthew-olzmann-november-20-2025",
+            "track_name": "\"Letter Written While Waiting in Line at Comic Con\"",
+            "track_link": "/track/id/70869",
+            "other_classification": "letter"
         },
         {
             "reading_title": "Anselm Berrigan - December 4, 2025",
@@ -64160,7 +63791,7 @@
             "reading_link": "/reading/volha-hapeyeva-april-9-2026",
             "track_name": "\"\u0456 \u0441\u043d\u0456\u043b\u0430 \u044f\u043d\u0430 \u0441\u043b\u043e\u0432\u0430...\" / \"and she dreamt about the word\u2026\"",
             "track_link": "/track/id/71206",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Julia Alvarez - April 16, 2026",
@@ -66216,13 +65847,6 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Rachel Zucker - February 23, 2018",
-            "reading_link": "/reading/rachel-zucker-february-23-2018",
-            "track_name": "Excerpts from The Poetics of Wrongness",
-            "track_link": "/track/id/60630",
-            "other_classification": ""
-        },
-        {
             "reading_title": "Alec Finlay - March 1, 2018",
             "reading_link": "/reading/alec-finlay-march-1-2018",
             "track_name": "Excerpts from \"First Views of the Foothills\"",
@@ -66496,13 +66120,6 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Joy Williams - February 3, 2022",
-            "reading_link": "/reading/joy-williams-february-3-2022",
-            "track_name": "Excerpt from Harrow, Book Three",
-            "track_link": "/track/id/69523",
-            "other_classification": ""
-        },
-        {
             "reading_title": "Mai Der Vang - August 11, 2022",
             "reading_link": "/reading/mai-der-vang-august-11-2022",
             "track_name": "Excerpt from \"Manifesto of a Drum\"",
@@ -66514,28 +66131,28 @@
             "reading_link": "/reading/shayla-lawz-september-22-2022",
             "track_name": "Excerpts from Part One",
             "track_link": "/track/id/69746",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Shayla Lawz - September 22, 2022",
             "reading_link": "/reading/shayla-lawz-september-22-2022",
             "track_name": "Excerpts from Part Two",
             "track_link": "/track/id/69744",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Shayla Lawz - September 22, 2022",
             "reading_link": "/reading/shayla-lawz-september-22-2022",
             "track_name": "Excerpts from Part Three",
             "track_link": "/track/id/69745",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Shayla Lawz - September 22, 2022",
             "reading_link": "/reading/shayla-lawz-september-22-2022",
             "track_name": "Excerpts from Coda",
             "track_link": "/track/id/69747",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Victoria Chang - October 6, 2022",
@@ -66545,39 +66162,25 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Bojan Louis - December 15, 2022",
-            "reading_link": "/reading/bojan-louis-december-15-2022",
-            "track_name": "Excerpt from \"A New Place to Hide\"",
-            "track_link": "/track/id/69592",
-            "other_classification": ""
-        },
-        {
             "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "Opening Remarks and Excerpt from The Deer Book",
             "track_link": "/track/id/69760",
-            "other_classification": "introduction"
-        },
-        {
-            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
-            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
-            "track_name": "Opening Remarks and Excerpt from Hallwalls Contemporary Arts Center, Buffalo, NY, 1998",
-            "track_link": "/track/id/69755",
-            "other_classification": "introduction"
+            "other_classification": "translation, introduction"
         },
         {
             "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "Excerpt from Hallwalls Contemporary Arts Center, Buffalo, NY, 1998",
             "track_link": "/track/id/69752",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "Excerpt from Krannert Art Center, University of Illinois at Urbana-Champaign, 1999",
             "track_link": "/track/id/69757",
-            "other_classification": ""
+            "other_classification": "performance"
         },
         {
             "reading_title": "Jennifer Elise Foerster - April 27, 2023",
@@ -66605,41 +66208,34 @@
             "reading_link": "/reading/sawako-nakayasu-november-9-2023",
             "track_name": "Excerpt from Pink Waves",
             "track_link": "/track/id/70035",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "Excerpt from \"Child of Europe\"",
             "track_link": "/track/id/70148",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "Excerpt from \"To Jonathan Swift\"",
             "track_link": "/track/id/70149",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Robert Hass - January 27, 2024",
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "Excerpt from \"Movies in Central Park for Juliusz Kronski in Paris\"",
             "track_link": "/track/id/70154",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Gina Franco - February 22, 2024",
             "reading_link": "/reading/gina-franco-february-22-2024",
             "track_name": "Excerpt from \"Throne\"",
             "track_link": "/track/id/70194",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Matthew Zapruder - February 29, 2024",
-            "reading_link": "/reading/matthew-zapruder-february-29-2024",
-            "track_name": "Excerpt from \"My Life (Second Draft)\"",
-            "track_link": "/track/id/70261",
             "other_classification": ""
         },
         {
@@ -66685,20 +66281,6 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Rodrigo Restrepo Montoya - February 12, 2026",
-            "reading_link": "/reading/rodrigo-restrepo-montoya-february-12-2026",
-            "track_name": "Excerpt from Bruto",
-            "track_link": "/track/id/71040",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Fernando A. Flores - February 12, 2026",
-            "reading_link": "/reading/fernando-flores-february-12-2026",
-            "track_name": "Excerpt from Brother Bront\u00eb",
-            "track_link": "/track/id/71043",
-            "other_classification": ""
-        },
-        {
             "reading_title": "Susan Nguyen - February 26, 2026",
             "reading_link": "/reading/susan-nguyen-february-26-2026",
             "track_name": "Excerpts from \"The Boat People\"",
@@ -66713,13 +66295,34 @@
             "other_classification": ""
         }
     ],
-    "tv script": [
+    "video": [
         {
             "reading_title": "David Rivard - January 17, 2012",
             "reading_link": "/reading/david-rivard-january-17-2012",
             "track_name": "On the New York School, risk, and the self; excerpt from Mad Men",
             "track_link": "/track/id/65386",
             "other_classification": "commentary"
+        },
+        {
+            "reading_title": "\"Hilito,\" a film by Cecilia Vicu\u00f1a - May 20, 2012",
+            "reading_link": "/reading/hilito-film-cecilia-vicuna-may-20-2012",
+            "track_name": "Hilito",
+            "track_link": "/track/id/59595",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Marcelo Hernandez Castillo - March 17, 2022",
+            "reading_link": "/reading/marcelo-hernandez-castillo-march-17-2022",
+            "track_name": "\"Reverse exegesis in which you give...\" (video)",
+            "track_link": "/track/id/69484",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Paisley Rekdal - September 21, 2023",
+            "reading_link": "/reading/paisley-rekdal-september-21-2023",
+            "track_name": "Entry Video",
+            "track_link": "/track/id/69910",
+            "other_classification": ""
         }
     ],
     "conversation": [
@@ -67012,6 +66615,13 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Rachel Zucker - February 23, 2018",
+            "reading_link": "/reading/rachel-zucker-february-23-2018",
+            "track_name": "Excerpts from The Poetics of Wrongness",
+            "track_link": "/track/id/60630",
+            "other_classification": ""
+        },
+        {
             "reading_title": "MFA 50th Anniversary: Aisha Sabatini Sloan - November 17, 2022",
             "reading_link": "/reading/mfa-50th-anniversary-aisha-sabatini-sloan-november-17-2022",
             "track_name": "Excerpt from Borealis",
@@ -67051,6 +66661,13 @@
             "reading_link": "/reading/hammer-poets-mass-incarceration-march-20-2025",
             "track_name": "Excerpts from \"When We All Loved a show About a Wall: ICE, Borders, and the Accidental Revolutionary Politics of Game of Thrones\"",
             "track_link": "/track/id/70665",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Tracy K. Smith - October 23, 2025",
+            "reading_link": "/reading/tracy-k-smith-october-23-2025",
+            "track_name": "\"Fear Less: A Poem Is a Tool for Careful Listening\"",
+            "track_link": "/track/id/70818",
             "other_classification": ""
         },
         {
@@ -67889,13 +67506,6 @@
             "track_name": "Full Reading",
             "track_link": "/track/id/56224",
             "other_classification": ""
-        },
-        {
-            "reading_title": "Diana Garc\u00eda - February 27, 2002",
-            "reading_link": "/reading/diana-garcia-february-27-2002",
-            "track_name": "Opening Remarks and \"Cotton Rows, Cotton Blankets\"",
-            "track_link": "/track/id/58461",
-            "other_classification": "poem"
         },
         {
             "reading_title": "Carolyn Forch\u00e9 - March 7, 2002",
@@ -70354,6 +69964,13 @@
             "track_name": "Introduction",
             "track_link": "/track/id/58460",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Diana Garc\u00eda - February 27, 2002",
+            "reading_link": "/reading/diana-garcia-february-27-2002",
+            "track_name": "Opening Remarks and \"Cotton Rows, Cotton Blankets\"",
+            "track_link": "/track/id/58461",
+            "other_classification": "poem"
         },
         {
             "reading_title": "Peter Rock - April 3, 2002",
@@ -77402,14 +77019,14 @@
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "Opening Remarks and Excerpt from The Deer Book",
             "track_link": "/track/id/69760",
-            "other_classification": "poem excerpt"
+            "other_classification": "poem excerpt, translation"
         },
         {
             "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
             "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
             "track_name": "Opening Remarks and Excerpt from Hallwalls Contemporary Arts Center, Buffalo, NY, 1998",
             "track_link": "/track/id/69755",
-            "other_classification": "poem excerpt"
+            "other_classification": "song"
         },
         {
             "reading_title": "Silently Loud - January 29, 2023",
@@ -79220,6 +78837,13 @@
     ],
     "audience participation": [
         {
+            "reading_title": "Marilyn Chin - November 16, 2023",
+            "reading_link": "/reading/marilyn-chin-november-16-2023",
+            "track_name": "\"You Go, Me Stay, Two Autumns\"",
+            "track_link": "/track/id/70044",
+            "other_classification": "poem"
+        },
+        {
             "reading_title": "Maddie Norris - May 2, 2024",
             "reading_link": "/reading/maddie-norris-may-2-2024",
             "track_name": "Opening Remarks and Audience Participation Exercise",
@@ -79387,6 +79011,13 @@
             "reading_link": "/reading/carolyn-forche-february-6-2020",
             "track_name": "Excerpt from \"What You Have Heard Is True\" (4)",
             "track_link": "/track/id/61194",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Matthew Zapruder - February 29, 2024",
+            "reading_link": "/reading/matthew-zapruder-february-29-2024",
+            "track_name": "Excerpt from \"My Life (Second Draft)\"",
+            "track_link": "/track/id/70261",
             "other_classification": ""
         },
         {
@@ -79791,18 +79422,25 @@
             "other_classification": ""
         },
         {
+            "reading_title": "Joy Williams - February 3, 2022",
+            "reading_link": "/reading/joy-williams-february-3-2022",
+            "track_name": "Excerpt from Harrow, Book Three",
+            "track_link": "/track/id/69523",
+            "other_classification": ""
+        },
+        {
             "reading_title": "Natasha Wimmer - May 1, 2025",
             "reading_link": "/reading/natasha-wimmer-may-1-2025",
             "track_name": "Excerpt from You Dreamed of Empires",
             "track_link": "/track/id/70728",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Natasha Wimmer - May 1, 2025",
             "reading_link": "/reading/natasha-wimmer-may-1-2025",
             "track_name": "Excerpt from The Savage Detectives",
             "track_link": "/track/id/70729",
-            "other_classification": ""
+            "other_classification": "translation"
         },
         {
             "reading_title": "Josh Riedel - September 25, 2025",
@@ -79810,6 +79448,470 @@
             "track_name": "Excerpt from a novel-in-progress",
             "track_link": "/track/id/70782",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Rodrigo Restrepo Montoya - February 12, 2026",
+            "reading_link": "/reading/rodrigo-restrepo-montoya-february-12-2026",
+            "track_name": "Excerpt from Bruto",
+            "track_link": "/track/id/71040",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Fernando A. Flores - February 12, 2026",
+            "reading_link": "/reading/fernando-flores-february-12-2026",
+            "track_name": "Excerpt from Brother Bront\u00eb",
+            "track_link": "/track/id/71043",
+            "other_classification": ""
+        }
+    ],
+    "translation": [
+        {
+            "reading_title": "Robert Bly - November 30, 1966",
+            "reading_link": "/reading/robert-bly-november-30-1966",
+            "track_name": "Translations of Issa's Haikus",
+            "track_link": "/track/id/64972",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Robert Bly - November 30, 1966",
+            "reading_link": "/reading/robert-bly-november-30-1966",
+            "track_name": "Translation of \"I don't know what sort of God we've been talking about...\" (2)",
+            "track_link": "/track/id/64988",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Robert Bly - November 30, 1966",
+            "reading_link": "/reading/robert-bly-november-30-1966",
+            "track_name": "Translation of \"Student, do the simple purification...\" (4)",
+            "track_link": "/track/id/64989",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Robert Bly - November 30, 1966",
+            "reading_link": "/reading/robert-bly-november-30-1966",
+            "track_name": "Translation of \"Ode to My Socks\"",
+            "track_link": "/track/id/64990",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Mark Strand - May 4, 1971",
+            "reading_link": "/reading/mark-strand-may-4-1971",
+            "track_name": "\"I am Raising a Fly,\" \"A War Song,\" and \"Butterfly Messenger\"",
+            "track_link": "/track/id/62539",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "W.S. Merwin - March 22, 1977",
+            "reading_link": "/reading/ws-merwin-march-22-1977",
+            "track_name": "Dreams of Romin Teratol, an Indian from Zinacantan",
+            "track_link": "/track/id/63258",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Rodney Phillips - September 20, 2004",
+            "reading_link": "/reading/rodney-phillips-september-20-2004",
+            "track_name": "Translations and Illustrations of Dante",
+            "track_link": "/track/id/58152",
+            "other_classification": "lecture"
+        },
+        {
+            "reading_title": "Rodney Phillips - September 20, 2004",
+            "reading_link": "/reading/rodney-phillips-september-20-2004",
+            "track_name": "Translations and Illustrations of Dante (Continued)",
+            "track_link": "/track/id/58153",
+            "other_classification": "lecture"
+        },
+        {
+            "reading_title": "Rodney Phillips - September 20, 2004",
+            "reading_link": "/reading/rodney-phillips-september-20-2004",
+            "track_name": "Translations and Illustrations of Dante (Continued)",
+            "track_link": "/track/id/58154",
+            "other_classification": "lecture"
+        },
+        {
+            "reading_title": "Sherwin Bitsui - September 10, 2010",
+            "reading_link": "/reading/sherwin-bitsui-september-10-2010",
+            "track_name": "Introductory Remarks and Translation of \"Nahasdzaan\"",
+            "track_link": "/track/id/57203",
+            "other_classification": "introduction"
+        },
+        {
+            "reading_title": "Sherwin Bitsui - September 10, 2010",
+            "reading_link": "/reading/sherwin-bitsui-september-10-2010",
+            "track_name": "Translation of \"Dxiibi guidxa\"",
+            "track_link": "/track/id/57204",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Fady Joudah - February 19, 2015",
+            "reading_link": "/reading/fady-joudah-february-19-2015",
+            "track_name": "\"I Dreamed You\"",
+            "track_link": "/track/id/59683",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"From Crow's-eye View: Poem Number One\"",
+            "track_link": "/track/id/60657",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Abnormal Reversible Reaction\"",
+            "track_link": "/track/id/60669",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Abnormal Reversible Reaction\" (continued)",
+            "track_link": "/track/id/60670",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Bright Sun in the Head of the Girls\" (translation no. 1)",
+            "track_link": "/track/id/60672",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - March 22, 2018",
+            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
+            "track_name": "\"Deflated Rubber Turkey\" (translation no. 2)",
+            "track_link": "/track/id/60678",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Anthony Cody - August 11, 2022",
+            "reading_link": "/reading/anthony-cody-august-11-2022",
+            "track_name": "\"Earth Song\"",
+            "track_link": "/track/id/69617",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
+            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
+            "track_name": "Opening Remarks and Excerpt from The Deer Book",
+            "track_link": "/track/id/69760",
+            "other_classification": "poem excerpt, introduction"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"El Kaos Debajo De Los Botones / Acr\u00edlica en Az\u00fal\" / \"The Chaos Beneath the Buttons / Acrylic in Blue\"",
+            "track_link": "/track/id/69701",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Quentino\" / \"Quentino\"",
+            "track_link": "/track/id/69694",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Ella Quiere el Anillo como Aqu\u00e9l Quiere el Traje de la Cicatriz/Pero\" / \"She Wants The Ring Like That Guy Wants The Scar Suit/But\"",
+            "track_link": "/track/id/69695",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Juan Felipe Herrera with Farid Matuk - February 23, 2023",
+            "reading_link": "/reading/juan-felipe-herrera-farid-matuk-february-23-2023",
+            "track_name": "\"Radio Couples\" / \"Radio Couples\"",
+            "track_link": "/track/id/69696",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Jane Hirshfield - April 13, 2023",
+            "reading_link": "/reading/jane-hirshfield-april-13-2023",
+            "track_name": "Selected tankas by Ono no Komachi",
+            "track_link": "/track/id/69815",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Jane Hirshfield - April 13, 2023",
+            "reading_link": "/reading/jane-hirshfield-april-13-2023",
+            "track_name": "Selected tankas by Izumi Shikibu",
+            "track_link": "/track/id/69816",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Jennifer Elise Foerster - April 27, 2023",
+            "reading_link": "/reading/jennifer-elise-foerster-april-27-2023",
+            "track_name": "\"Nakonakv vcakayis\u2026\"",
+            "track_link": "/track/id/69857",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Jennifer Elise Foerster - April 27, 2023",
+            "reading_link": "/reading/jennifer-elise-foerster-april-27-2023",
+            "track_name": "\"Hvcce uefihn\u0113\u2026\"",
+            "track_link": "/track/id/69856",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Paisley Rekdal - September 21, 2023",
+            "reading_link": "/reading/paisley-rekdal-september-21-2023",
+            "track_name": "\"Translation\"",
+            "track_link": "/track/id/69919",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - November 9, 2023",
+            "reading_link": "/reading/sawako-nakayasu-november-9-2023",
+            "track_name": "Excerpt from Pink Waves",
+            "track_link": "/track/id/70035",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Sawako Nakayasu - November 9, 2023",
+            "reading_link": "/reading/sawako-nakayasu-november-9-2023",
+            "track_name": "Excerpt from Say Translation Is Art",
+            "track_link": "/track/id/70031",
+            "other_classification": "treatise excerpt"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "Excerpt from \"Child of Europe\"",
+            "track_link": "/track/id/70148",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "Excerpt from \"To Jonathan Swift\"",
+            "track_link": "/track/id/70149",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "Excerpt from \"Movies in Central Park for Juliusz Kronski in Paris\"",
+            "track_link": "/track/id/70154",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"In Warsaw\"",
+            "track_link": "/track/id/70147",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"Two Men in Rome\"",
+            "track_link": "/track/id/70150",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"Song on Porcelain\"",
+            "track_link": "/track/id/70151",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"The Song of a Bird on the Banks of the Potomac\"",
+            "track_link": "/track/id/70152",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"A Little Negro Girl Playing Chopin\"",
+            "track_link": "/track/id/70153",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "Excerpts from \"Treatise on Morals\"",
+            "track_link": "/track/id/70156",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "\"Mittelbergheim\"",
+            "track_link": "/track/id/70155",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Robert Hass - January 27, 2024",
+            "reading_link": "/reading/robert-hass-january-27-2024",
+            "track_name": "Excerpt of Polish scholar's writing about Czes\u0142aw Mi\u0142osz's time in New York post-WWII",
+            "track_link": "/track/id/70145",
+            "other_classification": "writing excerpt"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Ra ruzul\u00fa guidxilay\u00fa\" / \"Origen\" / \"Origin\"",
+            "track_link": "/track/id/70325",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Olga\"",
+            "track_link": "/track/id/70328",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Gucaladxa' niza neu' naa\u2026\" / \"Dese\u00e9 caminaras conmigo\u2026\" / \"I wish you could walk with me\u2026\"",
+            "track_link": "/track/id/70331",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Ni Nabani ma' guti\" / \"Naturaleza muerta\" / \"Still Life\"",
+            "track_link": "/track/id/70330",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Diidxa' ne guenda\" / \"Tradici\u00f3n\" / \"Tradition\"",
+            "track_link": "/track/id/70333",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Xquenda\" / \"Nahual\" / \"Familiar\"",
+            "track_link": "/track/id/70332",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Bidaani'\" / \"Huipil\" / \"Huipil\"",
+            "track_link": "/track/id/70334",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Lidxie be'\u00f1e'\" / \"Lagartera\" / \"Alligator Home\"",
+            "track_link": "/track/id/70335",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Dxiibi\" / \"P\u00e1nico\" / \"Panic\"",
+            "track_link": "/track/id/70336",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Binni lidxe'\" / \"La familia\" / \"Family\"",
+            "track_link": "/track/id/70337",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Ni guicaa T.S. Eliot\" / \"Para T.S. Eliot\" / \"For T.S. Eliot\"",
+            "track_link": "/track/id/70339",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Bilaa lu xtaalu'\u2026\" / \"Arroja granos de ma\u00edz\u2026\" / \"Hurl grains of purple corn\u2026\"",
+            "track_link": "/track/id/70338",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natalia Toledo and Clare Sullivan - April 18, 2024",
+            "reading_link": "/reading/natalia-toledo-and-clare-sullivan-april-18-2024",
+            "track_name": "\"Runebia'ya' diidxa'\u2026\" / \"Conozco de conjuros\u2026\" / \"I can say incantations\u2026\"",
+            "track_link": "/track/id/70340",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Brenda Lozano - August 29, 2024",
+            "reading_link": "/reading/brenda-lozano-august-29-2024",
+            "track_name": "Excerpts from Brujas / Witches (1)",
+            "track_link": "/track/id/70397",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Brenda Lozano - August 29, 2024",
+            "reading_link": "/reading/brenda-lozano-august-29-2024",
+            "track_name": "Excerpts from Brujas / Witches (2)",
+            "track_link": "/track/id/70399",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Brenda Lozano - August 29, 2024",
+            "reading_link": "/reading/brenda-lozano-august-29-2024",
+            "track_name": "Excerpts from Brujas / Witches (3)",
+            "track_link": "/track/id/70398",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "Excerpt from You Dreamed of Empires",
+            "track_link": "/track/id/70728",
+            "other_classification": "novel excerpt"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "Excerpt from The Savage Detectives",
+            "track_link": "/track/id/70729",
+            "other_classification": "novel excerpt"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "\"Portrait of a Disciple\"",
+            "track_link": "/track/id/70723",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "\"As a Poet I Respect Him Greatly, Dear Madam, But\u2026\"",
+            "track_link": "/track/id/70724",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "\"Ars Poetica, 1970\"",
+            "track_link": "/track/id/70726",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "\"Oppression in Milk: Anticlimax\"",
+            "track_link": "/track/id/70727",
+            "other_classification": "prose poem"
+        },
+        {
+            "reading_title": "Volha Hapeyeva - April 9, 2026",
+            "reading_link": "/reading/volha-hapeyeva-april-9-2026",
+            "track_name": "\"\u0456 \u0441\u043d\u0456\u043b\u0430 \u044f\u043d\u0430 \u0441\u043b\u043e\u0432\u0430...\" / \"and she dreamt about the word\u2026\"",
+            "track_link": "/track/id/71206",
+            "other_classification": "poem"
         }
     ],
     "prologue": [
@@ -80152,106 +80254,239 @@
             "track_name": "Excerpt from \"That Pink House at the End of the Street on the Other Side of Town\"",
             "track_link": "/track/id/69588",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Bojan Louis - December 15, 2022",
+            "reading_link": "/reading/bojan-louis-december-15-2022",
+            "track_name": "Excerpt from \"A New Place to Hide\"",
+            "track_link": "/track/id/69592",
+            "other_classification": ""
         }
     ],
-    "translation": [
+    "song": [
         {
-            "reading_title": "Robert Bly - November 30, 1966",
-            "reading_link": "/reading/robert-bly-november-30-1966",
-            "track_name": "Translations of Issa's Haikus",
-            "track_link": "/track/id/64972",
+            "reading_title": "Nanao Sakaki - November 8, 1990",
+            "reading_link": "/reading/nanao-sakaki-november-8-1990",
+            "track_name": "Fisherman's song",
+            "track_link": "/track/id/66512",
             "other_classification": ""
         },
         {
-            "reading_title": "Robert Bly - November 30, 1966",
-            "reading_link": "/reading/robert-bly-november-30-1966",
-            "track_name": "Translation of \"I don't know what sort of God we've been talking about...\" (2)",
-            "track_link": "/track/id/64988",
+            "reading_title": "Nanao Sakaki - November 8, 1990",
+            "reading_link": "/reading/nanao-sakaki-november-8-1990",
+            "track_name": "19th-century Arapaho song",
+            "track_link": "/track/id/66525",
             "other_classification": ""
         },
         {
-            "reading_title": "Robert Bly - November 30, 1966",
-            "reading_link": "/reading/robert-bly-november-30-1966",
-            "track_name": "Translation of \"Student, do the simple purification...\" (4)",
-            "track_link": "/track/id/64989",
+            "reading_title": "Nanao Sakaki - November 8, 1990",
+            "reading_link": "/reading/nanao-sakaki-november-8-1990",
+            "track_name": "Song",
+            "track_link": "/track/id/66526",
             "other_classification": ""
         },
         {
-            "reading_title": "Robert Bly - November 30, 1966",
-            "reading_link": "/reading/robert-bly-november-30-1966",
-            "track_name": "Translation of \"Ode to My Socks\"",
-            "track_link": "/track/id/64990",
+            "reading_title": "Nanao Sakaki - November 8, 1990",
+            "reading_link": "/reading/nanao-sakaki-november-8-1990",
+            "track_name": "9th-century Japanese song",
+            "track_link": "/track/id/66527",
             "other_classification": ""
         },
         {
-            "reading_title": "W.S. Merwin - March 22, 1977",
-            "reading_link": "/reading/ws-merwin-march-22-1977",
-            "track_name": "Dreams of Romin Teratol, an Indian from Zinacantan",
-            "track_link": "/track/id/63258",
+            "reading_title": "Nanao Sakaki - November 8, 1990",
+            "reading_link": "/reading/nanao-sakaki-november-8-1990",
+            "track_name": "Fragment of a Japanese children's song about rain",
+            "track_link": "/track/id/66528",
             "other_classification": ""
         },
         {
-            "reading_title": "Rodney Phillips - September 20, 2004",
-            "reading_link": "/reading/rodney-phillips-september-20-2004",
-            "track_name": "Translations and Illustrations of Dante",
-            "track_link": "/track/id/58152",
-            "other_classification": "lecture"
-        },
-        {
-            "reading_title": "Rodney Phillips - September 20, 2004",
-            "reading_link": "/reading/rodney-phillips-september-20-2004",
-            "track_name": "Translations and Illustrations of Dante (Continued)",
-            "track_link": "/track/id/58153",
-            "other_classification": "lecture"
-        },
-        {
-            "reading_title": "Rodney Phillips - September 20, 2004",
-            "reading_link": "/reading/rodney-phillips-september-20-2004",
-            "track_name": "Translations and Illustrations of Dante (Continued)",
-            "track_link": "/track/id/58154",
-            "other_classification": "lecture"
-        },
-        {
-            "reading_title": "Sherwin Bitsui - September 10, 2010",
-            "reading_link": "/reading/sherwin-bitsui-september-10-2010",
-            "track_name": "Introductory Remarks and Translation of \"Nahasdzaan\"",
-            "track_link": "/track/id/57203",
+            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
+            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
+            "track_name": "Opening Remarks and Excerpt from Hallwalls Contemporary Arts Center, Buffalo, NY, 1998",
+            "track_link": "/track/id/69755",
             "other_classification": "introduction"
         },
         {
-            "reading_title": "Sherwin Bitsui - September 10, 2010",
-            "reading_link": "/reading/sherwin-bitsui-september-10-2010",
-            "track_name": "Translation of \"Dxiibi guidxa\"",
-            "track_link": "/track/id/57204",
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"The Singing Man\"",
+            "track_link": "/track/id/69721",
             "other_classification": ""
         },
         {
-            "reading_title": "Sawako Nakayasu - March 22, 2018",
-            "reading_link": "/reading/sawako-nakayasu-march-22-2018",
-            "track_name": "\"Deflated Rubber Turkey\" (translation no. 2)",
-            "track_link": "/track/id/60678",
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Love That's Real\"",
+            "track_link": "/track/id/69722",
             "other_classification": ""
         },
         {
-            "reading_title": "Brenda Lozano - August 29, 2024",
-            "reading_link": "/reading/brenda-lozano-august-29-2024",
-            "track_name": "Excerpts from Brujas / Witches (1)",
-            "track_link": "/track/id/70397",
-            "other_classification": "poem excerpt"
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Seven Leaf Clover\"",
+            "track_link": "/track/id/69723",
+            "other_classification": ""
         },
         {
-            "reading_title": "Brenda Lozano - August 29, 2024",
-            "reading_link": "/reading/brenda-lozano-august-29-2024",
-            "track_name": "Excerpts from Brujas / Witches (2)",
-            "track_link": "/track/id/70399",
-            "other_classification": "poem excerpt"
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Big as the Sky\"",
+            "track_link": "/track/id/69724",
+            "other_classification": ""
         },
         {
-            "reading_title": "Brenda Lozano - August 29, 2024",
-            "reading_link": "/reading/brenda-lozano-august-29-2024",
-            "track_name": "Excerpts from Brujas / Witches (3)",
-            "track_link": "/track/id/70398",
-            "other_classification": "poem excerpt"
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Because the World Needs You\"",
+            "track_link": "/track/id/69725",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Coming Into My Own\"",
+            "track_link": "/track/id/69727",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Being on My Trampoline\"",
+            "track_link": "/track/id/69726",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Truth Seeker\"",
+            "track_link": "/track/id/69728",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Little Things\"",
+            "track_link": "/track/id/69729",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Rocket Saturn Five\"",
+            "track_link": "/track/id/69730",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Absolutely Most\"",
+            "track_link": "/track/id/69731",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Loud - January 29, 2023",
+            "reading_link": "/reading/silently-loud-january-29-2023",
+            "track_name": "\"Perfect Imperfection\"",
+            "track_link": "/track/id/69732",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Silent News\"",
+            "track_link": "/track/id/70949",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"With My Friends in the Clouds\"",
+            "track_link": "/track/id/70950",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"They understand me\u2026\"",
+            "track_link": "/track/id/70951",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Forest and Me\"",
+            "track_link": "/track/id/70942",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"I love my friends\u2026\"",
+            "track_link": "/track/id/70943",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Love Is More than a Feeling\"",
+            "track_link": "/track/id/70923",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Never Give Up\"",
+            "track_link": "/track/id/70924",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Stalking of the Straight Line\"",
+            "track_link": "/track/id/70926",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Destiny Engage\"",
+            "track_link": "/track/id/70925",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Being on My Trampoline\"",
+            "track_link": "/track/id/70927",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Truth Seeker\"",
+            "track_link": "/track/id/70928",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Rocket Saturn Five\"",
+            "track_link": "/track/id/70929",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Wildfires\"",
+            "track_link": "/track/id/70930",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Silently Louder - November 15, 2025",
+            "reading_link": "/reading/silently-louder-november-15-2025",
+            "track_name": "\"Tides of Change\"",
+            "track_link": "/track/id/70931",
+            "other_classification": ""
         }
     ],
     "journal entry": [
@@ -81184,11 +81419,67 @@
     ],
     "letter": [
         {
+            "reading_title": "Angel Dominguez - August 3, 2023",
+            "reading_link": "/reading/angel-dominguez-august-3-2023",
+            "track_name": "\"Dear Diego, We finally have it out\u2026\"",
+            "track_link": "/track/id/69871",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Angel Dominguez - August 3, 2023",
+            "reading_link": "/reading/angel-dominguez-august-3-2023",
+            "track_name": "\"Dear Diego, In my dreams we finally\u2026\"",
+            "track_link": "/track/id/69872",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (October 2020)\"",
+            "track_link": "/track/id/70082",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (November 2020)\"",
+            "track_link": "/track/id/70083",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (December 2020)\"",
+            "track_link": "/track/id/70084",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Julie Swarstad Johnson - January 11, 2024",
+            "reading_link": "/reading/julie-swarstad-johnson-january-11-2024",
+            "track_name": "\"Night Letters (January 2021)\"",
+            "track_link": "/track/id/70085",
+            "other_classification": "poem"
+        },
+        {
             "reading_title": "Mary Ruefle - September 26, 2024",
             "reading_link": "/reading/mary-ruefle-september-26-2024",
             "track_name": "Found letter (\"Friend Ruth, I am sending you...\")",
             "track_link": "/track/id/70468",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Matthew Olzmann - November 20, 2025",
+            "reading_link": "/reading/matthew-olzmann-november-20-2025",
+            "track_name": "\"Letter to Bruce Wayne\"",
+            "track_link": "/track/id/70868",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Matthew Olzmann - November 20, 2025",
+            "reading_link": "/reading/matthew-olzmann-november-20-2025",
+            "track_name": "\"Letter Written While Waiting in Line at Comic Con\"",
+            "track_link": "/track/id/70869",
+            "other_classification": "poem"
         }
     ],
     "manuscript excerpt": [
@@ -81221,6 +81512,27 @@
             "track_name": "\"Meditations on Starch\" (Continued)",
             "track_link": "/track/id/58021",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Matthew Zapruder - February 29, 2024",
+            "reading_link": "/reading/matthew-zapruder-february-29-2024",
+            "track_name": "\"I Woke Up in California (First Draft)\"",
+            "track_link": "/track/id/70247",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Matthew Zapruder - February 29, 2024",
+            "reading_link": "/reading/matthew-zapruder-february-29-2024",
+            "track_name": "\"Poem For Rupi Kaur\"",
+            "track_link": "/track/id/70259",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Dana Levin - August 8, 2024",
+            "reading_link": "/reading/dana-levin-august-8-2024",
+            "track_name": "\"House of Feels\"",
+            "track_link": "/track/id/70392",
+            "other_classification": "prose"
         }
     ],
     "performance": [
@@ -81328,6 +81640,55 @@
             "track_name": "Performance",
             "track_link": "/track/id/60819",
             "other_classification": ""
+        },
+        {
+            "reading_title": "Shayla Lawz - September 22, 2022",
+            "reading_link": "/reading/shayla-lawz-september-22-2022",
+            "track_name": "Excerpts from Part One",
+            "track_link": "/track/id/69746",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Shayla Lawz - September 22, 2022",
+            "reading_link": "/reading/shayla-lawz-september-22-2022",
+            "track_name": "Excerpts from Part Two",
+            "track_link": "/track/id/69744",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Shayla Lawz - September 22, 2022",
+            "reading_link": "/reading/shayla-lawz-september-22-2022",
+            "track_name": "Excerpts from Part Three",
+            "track_link": "/track/id/69745",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Shayla Lawz - September 22, 2022",
+            "reading_link": "/reading/shayla-lawz-september-22-2022",
+            "track_name": "Excerpts from Coda",
+            "track_link": "/track/id/69747",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
+            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
+            "track_name": "Excerpt from Hallwalls Contemporary Arts Center, Buffalo, NY, 1998",
+            "track_link": "/track/id/69752",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
+            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
+            "track_name": "Excerpt from Krannert Art Center, University of Illinois at Urbana-Champaign, 1999",
+            "track_link": "/track/id/69757",
+            "other_classification": "poem excerpt"
+        },
+        {
+            "reading_title": "Sheila Maldonado - February 22, 2024",
+            "reading_link": "/reading/sheila-maldonado-february-22-2024",
+            "track_name": "\"I write a book my mother doesn't read...\"",
+            "track_link": "/track/id/70237",
+            "other_classification": "poem"
         }
     ],
     "performance excerpt": [
@@ -81343,8 +81704,22 @@
         {
             "reading_title": "Michael Dennis Browne - February 2, 1978",
             "reading_link": "/reading/michael-dennis-browne-february-2-1978",
+            "track_name": "excerpt from \"Mad Book, Shadow Book\"",
+            "track_link": "/track/id/64614",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Michael Dennis Browne - February 2, 1978",
+            "reading_link": "/reading/michael-dennis-browne-february-2-1978",
             "track_name": "excerpt from \"Six Spring Songs\"",
             "track_link": "/track/id/64622",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Michael Dennis Browne - February 2, 1978",
+            "reading_link": "/reading/michael-dennis-browne-february-2-1978",
+            "track_name": "excerpt from \"Mad Book, Shadow Book\"",
+            "track_link": "/track/id/64636",
             "other_classification": ""
         }
     ],
@@ -81453,6 +81828,22 @@
             "track_name": "third section from \"Sequence as Opposed to Series\"",
             "track_link": "/track/id/57055",
             "other_classification": ""
+        }
+    ],
+    "chant": [
+        {
+            "reading_title": "Edgar Garcia - February 22, 2024",
+            "reading_link": "/reading/edgar-garcia-february-22-2024",
+            "track_name": "\"Cantar es cantares...\"",
+            "track_link": "/track/id/70161",
+            "other_classification": "poem"
+        },
+        {
+            "reading_title": "Edgar Garcia - February 22, 2024",
+            "reading_link": "/reading/edgar-garcia-february-22-2024",
+            "track_name": "\"Cantar es, es cantar...\"",
+            "track_link": "/track/id/70173",
+            "other_classification": "poem"
         }
     ],
     "journal excerpt": [
@@ -81655,14 +82046,42 @@
             "other_classification": ""
         },
         {
-            "reading_title": "Playlist for the Apocalypse: A Reading with Rita Dove - October 13, 2022",
-            "reading_link": "/reading/playlist-apocalypse-reading-rita-dove-october-13-2022",
-            "track_name": "\"Prose in a Small Space\"",
-            "track_link": "/track/id/69546",
+            "reading_title": "Dana Levin - August 8, 2024",
+            "reading_link": "/reading/dana-levin-august-8-2024",
+            "track_name": "\"House of Feels\"",
+            "track_link": "/track/id/70392",
+            "other_classification": "memoir"
+        },
+        {
+            "reading_title": "Mary Ruefle - September 26, 2024",
+            "reading_link": "/reading/mary-ruefle-september-26-2024",
+            "track_name": "\"The Effusive\"",
+            "track_link": "/track/id/70450",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Tracy K. Smith - October 23, 2025",
+            "reading_link": "/reading/tracy-k-smith-october-23-2025",
+            "track_name": "\"Falling Awake: Poetry and the Work of the Unconscious\"",
+            "track_link": "/track/id/70821",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Tracy K. Smith - October 23, 2025",
+            "reading_link": "/reading/tracy-k-smith-october-23-2025",
+            "track_name": "\"Who Are You?: On Strangers and Others\"",
+            "track_link": "/track/id/70823",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Tracy K. Smith - October 23, 2025",
+            "reading_link": "/reading/tracy-k-smith-october-23-2025",
+            "track_name": "\"Who Are You?: On Strangers and Others\" (continued)",
+            "track_link": "/track/id/70825",
             "other_classification": ""
         }
     ],
-    "prose poetry": [
+    "prose poem": [
         {
             "reading_title": "William Matthews - January 24, 1973",
             "reading_link": "/reading/william-matthews-january-24-1973",
@@ -81795,156 +82214,250 @@
             "track_name": "Excerpt from \"Wonder: A Syzygy\" and \"Underworld Lit\"",
             "track_link": "/track/id/60633",
             "other_classification": ""
-        }
-    ],
-    "song": [
+        },
         {
-            "reading_title": "Nanao Sakaki - November 8, 1990",
-            "reading_link": "/reading/nanao-sakaki-november-8-1990",
-            "track_name": "Fisherman's song",
-            "track_link": "/track/id/66512",
+            "reading_title": "Sesshu Foster - April 14, 2022",
+            "reading_link": "/reading/sesshu-foster-april-14-2022",
+            "track_name": "\"Game 112\"",
+            "track_link": "/track/id/69509",
             "other_classification": ""
         },
         {
-            "reading_title": "Nanao Sakaki - November 8, 1990",
-            "reading_link": "/reading/nanao-sakaki-november-8-1990",
-            "track_name": "19th-century Arapaho song",
-            "track_link": "/track/id/66525",
+            "reading_title": "Sesshu Foster - April 14, 2022",
+            "reading_link": "/reading/sesshu-foster-april-14-2022",
+            "track_name": "\"Game 111\"",
+            "track_link": "/track/id/69508",
             "other_classification": ""
         },
         {
-            "reading_title": "Nanao Sakaki - November 8, 1990",
-            "reading_link": "/reading/nanao-sakaki-november-8-1990",
-            "track_name": "Song",
-            "track_link": "/track/id/66526",
+            "reading_title": "Sesshu Foster - April 14, 2022",
+            "reading_link": "/reading/sesshu-foster-april-14-2022",
+            "track_name": "\"Game 84\"",
+            "track_link": "/track/id/69511",
             "other_classification": ""
         },
         {
-            "reading_title": "Nanao Sakaki - November 8, 1990",
-            "reading_link": "/reading/nanao-sakaki-november-8-1990",
-            "track_name": "9th-century Japanese song",
-            "track_link": "/track/id/66527",
+            "reading_title": "Sesshu Foster - April 14, 2022",
+            "reading_link": "/reading/sesshu-foster-april-14-2022",
+            "track_name": "\"Another Portrait of Dad\"",
+            "track_link": "/track/id/69513",
             "other_classification": ""
         },
         {
-            "reading_title": "Nanao Sakaki - November 8, 1990",
-            "reading_link": "/reading/nanao-sakaki-november-8-1990",
-            "track_name": "Fragment of a Japanese children's song about rain",
-            "track_link": "/track/id/66528",
+            "reading_title": "Playlist for the Apocalypse: A Reading with Rita Dove - October 13, 2022",
+            "reading_link": "/reading/playlist-apocalypse-reading-rita-dove-october-13-2022",
+            "track_name": "\"Prose in a Small Space\"",
+            "track_link": "/track/id/69546",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Silent News\"",
-            "track_link": "/track/id/70949",
+            "reading_title": "Cecilia Vicu\u00f1a with Rosa Alcal\u00e1 and Daniel Borzutzky - January 28, 2023",
+            "reading_link": "/reading/cecilia-vicuna-rosa-alcala-and-daniel-borzutzky-january-28-2023",
+            "track_name": "\"To Hear Is To Strike Gold: A Response to Pascua Lama\"",
+            "track_link": "/track/id/69753",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"With My Friends in the Clouds\"",
-            "track_link": "/track/id/70950",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"I'm working on being alone today\u2026\"",
+            "track_link": "/track/id/69926",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"They understand me\u2026\"",
-            "track_link": "/track/id/70951",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Doreen and LiZhen are generous\u2026\"",
+            "track_link": "/track/id/69927",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Forest and Me\"",
-            "track_link": "/track/id/70942",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"What I also mean to say is\u2026\"",
+            "track_link": "/track/id/69929",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"I love my friends\u2026\"",
-            "track_link": "/track/id/70943",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Here's what it's like if it's hard\u2026\"",
+            "track_link": "/track/id/69931",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Love Is More than a Feeling\"",
-            "track_link": "/track/id/70923",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"There are places I can't go\u2026\"",
+            "track_link": "/track/id/69930",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Never Give Up\"",
-            "track_link": "/track/id/70924",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"For a long time, I was attached\u2026\"",
+            "track_link": "/track/id/69932",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Stalking of the Straight Line\"",
-            "track_link": "/track/id/70926",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"It was graduation\u2026\"",
+            "track_link": "/track/id/69934",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Destiny Engage\"",
-            "track_link": "/track/id/70925",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"She had hit me many other times\u2026\"",
+            "track_link": "/track/id/69933",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Being on My Trampoline\"",
-            "track_link": "/track/id/70927",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"She tells me that she feels guilty\u2026\"",
+            "track_link": "/track/id/69935",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Truth Seeker\"",
-            "track_link": "/track/id/70928",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Form gives space for something to exist\u2026\"",
+            "track_link": "/track/id/69936",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Rocket Saturn Five\"",
-            "track_link": "/track/id/70929",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Originally, this was a book about\u2026\"",
+            "track_link": "/track/id/69937",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Wildfires\"",
-            "track_link": "/track/id/70930",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"My mother tells me something\u2026\"",
+            "track_link": "/track/id/69939",
             "other_classification": ""
         },
         {
-            "reading_title": "Silently Louder - November 15, 2025",
-            "reading_link": "/reading/silently-louder-november-15-2025",
-            "track_name": "\"Tides of Change\"",
-            "track_link": "/track/id/70931",
-            "other_classification": ""
-        }
-    ],
-    "song cycle": [
-        {
-            "reading_title": "Michael Dennis Browne - February 2, 1978",
-            "reading_link": "/reading/michael-dennis-browne-february-2-1978",
-            "track_name": "excerpt from \"Mad Book, Shadow Book\"",
-            "track_link": "/track/id/64614",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"You tell me that the old you\u2026\"",
+            "track_link": "/track/id/69938",
             "other_classification": ""
         },
         {
-            "reading_title": "Michael Dennis Browne - February 2, 1978",
-            "reading_link": "/reading/michael-dennis-browne-february-2-1978",
-            "track_name": "excerpt from \"Mad Book, Shadow Book\"",
-            "track_link": "/track/id/64636",
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Even though I didn't know M very well\u2026\"",
+            "track_link": "/track/id/69941",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Imagine every day you wake up to\u2026\"",
+            "track_link": "/track/id/69940",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"I have been writing to women\u2026\"",
+            "track_link": "/track/id/69942",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Last night, I had a dream about\u2026\"",
+            "track_link": "/track/id/69943",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Yanyi - September 28, 2023",
+            "reading_link": "/reading/yanyi-september-28-2023",
+            "track_name": "\"Of all the things I have done\u2026\"",
+            "track_link": "/track/id/69944",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Brandon Som - October 17, 2024",
+            "reading_link": "/reading/brandon-som-october-17-2024",
+            "track_name": "\"Tel\u00e9fono Roto\"",
+            "track_link": "/track/id/70477",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Niki Herd - February 20, 2025",
+            "reading_link": "/reading/niki-herd-february-20-2025",
+            "track_name": "\"The morning of...\" (January 20, 2025)",
+            "track_link": "/track/id/70635",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Natasha Wimmer - May 1, 2025",
+            "reading_link": "/reading/natasha-wimmer-may-1-2025",
+            "track_name": "\"Oppression in Milk: Anticlimax\"",
+            "track_link": "/track/id/70727",
+            "other_classification": "translation"
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Sidewalk\"",
+            "track_link": "/track/id/70803",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Metonymy\"",
+            "track_link": "/track/id/70805",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Bed\"",
+            "track_link": "/track/id/70806",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Landmark\"",
+            "track_link": "/track/id/70807",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Yardstick\"",
+            "track_link": "/track/id/70808",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"Several Tremendous\"",
+            "track_link": "/track/id/70809",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"The List\"",
+            "track_link": "/track/id/70811",
+            "other_classification": ""
+        },
+        {
+            "reading_title": "Richard Siken - October 9, 2025",
+            "reading_link": "/reading/richard-siken-october-9-2025",
+            "track_name": "\"The Waves\"",
+            "track_link": "/track/id/70810",
             "other_classification": ""
         }
     ],
@@ -81963,30 +82476,7 @@
             "reading_link": "/reading/sawako-nakayasu-november-9-2023",
             "track_name": "Excerpt from Say Translation Is Art",
             "track_link": "/track/id/70031",
-            "other_classification": ""
-        }
-    ],
-    "video": [
-        {
-            "reading_title": "\"Hilito,\" a film by Cecilia Vicu\u00f1a - May 20, 2012",
-            "reading_link": "/reading/hilito-film-cecilia-vicuna-may-20-2012",
-            "track_name": "Hilito",
-            "track_link": "/track/id/59595",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Marcelo Hernandez Castillo - March 17, 2022",
-            "reading_link": "/reading/marcelo-hernandez-castillo-march-17-2022",
-            "track_name": "\"Reverse exegesis in which you give...\" (video)",
-            "track_link": "/track/id/69484",
-            "other_classification": ""
-        },
-        {
-            "reading_title": "Paisley Rekdal - September 21, 2023",
-            "reading_link": "/reading/paisley-rekdal-september-21-2023",
-            "track_name": "Entry Video",
-            "track_link": "/track/id/69910",
-            "other_classification": ""
+            "other_classification": "translation"
         }
     ],
     "writing excerpt": [
@@ -82016,7 +82506,7 @@
             "reading_link": "/reading/robert-hass-january-27-2024",
             "track_name": "Excerpt of Polish scholar's writing about Czes\u0142aw Mi\u0142osz's time in New York post-WWII",
             "track_link": "/track/id/70145",
-            "other_classification": ""
+            "other_classification": "translation"
         }
     ]
 }

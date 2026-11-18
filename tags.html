@@ -52,13 +52,35 @@
     </div>
 
     <div class="essay-content">
-        <p>Hello! No more Canvas background.</p>
+        <p>Placeholder for attempt to categorize tags.</p>
+
+
+        <p>
+            
+
+            <div class="borderlands-content">
+                <p>Putting tags into categories is difficult. Try to categorize the "borderlands" tag.</p>
+                
+                <p id="borderlands-text">Click on a box below!</p>
+
+
+                <button class="borderlands-button" onclick="showUSLocationsText()">Locations: United States</button>
+                <button class="borderlands-button" onclick="showWorldLocationsText()">Locations: World</button>
+                <button class="borderlands-button" onclick="showIdentityText()">Identity</button>
+                <button class="borderlands-button" onclick="showNewCategory()">None of the above</button>
+
+                <p>Wow, that was complicated! And that's just one tag!</p>
+            </div>
+            
+            
+        </p>
     </div>
 
 
     <canvas id="animated-tags"></canvas>
 
     <script>
+        // tag animations
         const canvas = document.getElementById('animated-tags');
         const ctx = canvas.getContext('2d');
         canvas.width = window.innerWidth;
@@ -109,6 +131,13 @@
         }
 
         init();
+
+
+        // borderlands logic
+        function showUSLocationsText() {
+            borderlandsText = document.getElementById('borderlands-text');
+            borderlandsText.textContent = "Clicked US Locations";
+        }
     </script>
 
 
